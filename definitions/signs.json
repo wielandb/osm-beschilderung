@@ -152,7 +152,7 @@
 			{"bicycle":"yes"},
 			{"highway":"pedestrian"},
 			{"foot":"designated"},
-			{"traffic_sign":"DE:242"}
+			{"traffic_sign":"DE:242,1022-10"}
 		],
 	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/242_1022-10.png"
 	}
