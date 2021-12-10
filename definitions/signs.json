@@ -451,7 +451,7 @@
 			{"foot":"designated"},
 			{"traffic_sign":"DE:242,1022-10,1026-35,1026-30"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/242_1022-10_1026-35_1026-30.png"
 	}
 }
 ]
