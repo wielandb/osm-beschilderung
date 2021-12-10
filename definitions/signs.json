@@ -1,0 +1,449 @@
+[
+{"237":
+	{
+	"tags":
+		[
+			{"highway":"cycleway"},
+			{"bicycle":"designated"},
+			{"traffic_sign":"DE:237"}
+		],
+	"remove": 
+		[
+			{"foot":"yes"},
+			{"foot":"designated"}
+		],
+	"img": "",
+	"ipfs": "QmQCjuMQ4m6FKZAG7onHgXVZHLKHSdEgyT6NNXR1pEDUqN"
+	}
+},
+{"237_1020-30":
+	{"tags":
+		[
+			{"access":"destination"}
+			{"highway":"cycleway"},
+			{"bicycle":"designated"},
+			{"traffic_sign":"DE:237,1020-30"}
+		]
+	}
+},
+{"238":
+	{"tags":
+		[
+			{"highway":"bridleway"},
+			{"traffic_sign":"DE:238"}
+		],
+	"img": ""
+	}
+},
+{"239":
+	{"tags":
+		[
+			{"highway":"footway"},
+			{"foot":"designated"},
+			{"traffic_sign":"DE:239"}
+		],
+	"img": ""
+	}
+},
+{"239_254":
+	{"tags":
+		[
+			{"highway":"footway"},
+			{"foot":"designated"},
+			{"bicycle":"no"},
+			{"traffic_sign":"DE:239;254"}
+		],
+	"img": "",
+	"wrong":true
+	}
+},
+{"239_1012-32":
+	{"tags":
+		[
+			{"highway":"footway"},
+			{"foot":"designated"},
+			{"bicycle":"dismount"},
+			{"traffic_sign":"DE:239;1012-32"}
+		],
+	"img": "",
+	"wrong":true
+	}
+},
+{"239_1020-30":
+	{"tags":
+		[
+			{"access":"destination"},
+			{"highway":"footway"},
+			{"foot":"designated"},
+			{"traffic_sign":"DE:239,1020-30"}
+		],
+	"img": ""
+	}
+},
+{"239_1022-10":
+	{"tags":
+		[
+			{"bicycle":"yes"},
+			{"highway":"footway"},
+			{"foot":"designated"},
+			{"traffic_sign":"DE:239,1022-10"}
+		],
+	"img": ""
+	}
+},
+{"240":
+	{"tags":
+		[
+			{"highway":"path"},
+			{"bicycle":"designated"},
+			{"foot":"designated"},
+			{"segregated":"no"},
+			{"traffic_sign":"DE:240"}
+		],
+	"img": ""
+	}
+},
+{"240_1020-30":
+	{"tags":
+		[
+			{"access":"destination"},
+			{"highway":"path"},
+			{"bicycle":"designated"},
+			{"foot":"designated"},
+			{"segregated":"no"},
+			{"traffic_sign":"DE:240,1020-30"}
+		],
+	"img": ""
+	}
+},
+{"241":
+	{"tags":
+		[
+			{"highway":"path"},
+			{"bicycle":"designated"},
+			{"foot":"designated"},
+			{"segregated":"yes"},
+			{"traffic_sign":"DE:240"}
+		],
+	"img": ""
+	}
+},
+{"242":
+	{"tags":
+		[
+			{"highway":"pedestrian"},
+			{"foot":"designated"},
+			{"traffic_sign":"DE:242"}
+		],
+	"img": ""
+	}
+},
+{"242_1022-10":
+	{"tags":
+		[
+			{"bicycle":"yes"},
+			{"highway":"pedestrian"},
+			{"foot":"designated"},
+			{"traffic_sign":"DE:242"}
+		],
+	"img": ""
+	}
+},
+{"250":
+	{"tags":
+		[
+			{"vehicle":"no"},
+			{"traffic_sign":"DE:250"}
+		],
+	"img": ""
+	}
+},
+{"250_257-51":
+	{"tags":
+		[
+			{"vehicle":"no"},
+			{"horse":"no"},
+			{"traffic_sign":"DE:250;257-51"}
+		],
+	"img": ""
+	}
+},
+{"250_1020-30":
+	{"tags":
+		[
+			{"bicycle":"yes"},
+			{"vehicle":"destination"},
+			{"traffic_sign":"DE:250,1020-12"}
+		],
+	"img": ""
+	}
+},
+{"250_1022-10":
+	{"tags":
+		[
+			{"bicycle":"yes"},
+			{"vehicle":"no"},
+			{"traffic_sign":"DE:250,1022-10"}
+		],
+	"img": ""
+	}
+},
+{"250_1026-36":
+	{"tags":
+		[
+			{"vehicle":"agricultural"},
+			{"traffic_sign":"DE:250,1026-36"}
+		],
+	"img": ""
+	}
+},
+{"250_1026-38":
+	{"tags":
+		[
+			{"vehicle":"agricultural;forestry"},
+			{"traffic_sign":"DE:250,1026-38"}
+		],
+	"img": ""
+	}
+},
+{"254":
+	{"tags":
+		[
+			{"bicycle":"no"},
+			{"traffic_sign":"DE:254"}
+		],
+	"img": ""
+	}
+},
+{"254_1012-32":
+	{"tags":
+		[
+			{"bicycle":"no"},
+			{"traffic_sign":"DE:254;1012-32"}
+		],
+	"img": "",
+	"wrong":true
+	}
+},
+{"260":
+	{"tags":
+		[
+			{"motor_vehicle":"no"},
+			{"traffic_sign":"DE:260"}
+			],
+	"img": ""
+	}
+},
+{"260_1020-30":
+	{"tags":
+		[
+			{"motor_vehicle":"destination"},
+			{"traffic_sign":"DE:260,1020-30"}
+		],
+	"img": ""
+	}
+},
+{"260_1026-36":
+	{"tags":
+		[
+			{"motor_vehicle":"agricultural"},
+			{"traffic_sign":"DE:260,1026-36"}
+		],
+	"img": ""
+	}
+},
+{"260_1026-38":
+	{"tags":
+		[
+			{"motor_vehicle":"agricultural,forestry"},
+			{"traffic_sign":"DE:260,1026-38"}
+		],
+	"img": ""
+	}
+},
+{"1012-32":
+	{"tags":
+		[
+			{"bicycle":"dismount"},
+			{"traffic_sign":"DE:1012-32"}
+		],
+	"img": "",
+	"wrong":true
+	}
+},
+{"1022-10":
+	{"tags":
+		[
+			{"bicycle":"yes"},
+			{"traffic_sign":"DE:1022-10"}
+		],
+	"img": ""
+	}
+},
+{"253":
+	{"tags":
+		[
+			{"hgv":"no"},
+			{"traffic_sign":"DE:253"}
+		],
+	"img": ""
+	}
+},
+{"259":
+	{"tags":
+		[
+			{"foot":"no"},
+			{"traffic_sign":"DE:259"}
+		],
+	"img": ""
+	}
+},
+{"325":
+	{"tags":
+		[
+			{"highway":"living_street"},
+			{"traffic_sign":"DE:325"}
+		],
+	"img": ""
+	}
+},
+{"274-5":
+	{"tags":
+		[
+			{"maxspeed":"5"},
+			{"traffic_sign":"DE:274[5]"}
+		],
+	"img": ""
+	}
+},
+{"274-10":
+	{"tags":
+		[
+			{"maxspeed":"10"},
+			{"traffic_sign":"DE:274[10]"}
+		],
+	"img": ""
+	}
+},
+{"274-20":
+	{"tags":
+		[
+			{"maxspeed":"20"},
+			{"traffic_sign":"DE:274[20]"}
+		],
+	"img": ""
+	}
+},
+{"274-30":
+	{"tags":
+		[
+			{"maxspeed":"30"},
+			{"traffic_sign":"DE:274[30]"}
+		],
+	"img": ""
+	}
+},
+{"274-40":
+	{"tags":
+		[
+			{"maxspeed":"40"},
+			{"traffic_sign":"DE:274[40]"}
+		],
+	"img": ""
+	}
+},
+{"274-50":
+	{"tags":
+		[
+			{"maxspeed":"50"},
+			{"traffic_sign":"DE:274[50]"}
+		],
+	"img": ""
+	}
+},
+{"274-60":
+	{"tags":
+		[
+			{"maxspeed":"60"},
+			{"traffic_sign":"DE:274[60]"}
+		],
+	"img": ""
+	}
+},
+{"274-70":
+	{"tags":
+		[
+			{"maxspeed":"70"},
+			{"traffic_sign":"DE:274[70]"}
+		],
+	"img": ""
+	}
+},
+{"274-80":
+	{"tags":
+		[
+			{"maxspeed":"80"},
+			{"traffic_sign":"DE:274[80]"}
+		],
+	"img": ""
+	}
+},
+{"274-90":
+	{"tags":
+		[
+			{"maxspeed":"90"},
+			{"traffic_sign":"DE:274[90]"}
+		],
+	"img": ""
+	}
+},
+{"274-100":
+	{"tags":
+		[
+			{"maxspeed":"100"},
+			{"traffic_sign":"DE:274[100]"}
+		],
+	"img": ""
+	}
+},
+{"274-110":
+	{"tags":
+		[
+			{"maxspeed":"110"},
+			{"traffic_sign":"DE:274[110]"}
+		],
+	"img": ""
+	}
+},
+{"274-120":
+	{"tags":
+		[
+			{"maxspeed":"120"},
+			{"traffic_sign":"DE:274[120]"}
+		],
+	"img": ""
+	}
+},
+{"274-130":
+	{"tags":
+		[
+			{"maxspeed":"130"},
+			{"traffic_sign":"DE:274[130]"}
+		],
+	"img": ""
+	}
+},
+{"242_1022-10_1026-35_1026-30":
+	{"tags":
+		[
+			{"bicycle":"yes"},
+			{"taxi":"yes"},
+			{"access":"delivery"},
+			{"highway":"pedestrian"},
+			{"foot":"designated"},
+			{"traffic_sign":"DE:242,1022-10,1026-35,1026-30"}
+		],
+	"img": ""
+	}
+}
+]
