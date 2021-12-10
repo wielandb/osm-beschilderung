@@ -19,7 +19,7 @@
 {"237_1020-30":
 	{"tags":
 		[
-			{"access":"destination"}
+			{"access":"destination"},
 			{"highway":"cycleway"},
 			{"bicycle":"designated"},
 			{"traffic_sign":"DE:237,1020-30"}
