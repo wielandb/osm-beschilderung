@@ -1,0 +1,7 @@
+<osm>
+	<changeset>
+		<tag k="created_by" v="osm-beschilderung %VERSION%"/>
+		<tag k="comment" v="Beschilderung hinzugefügt"/>
+		<tag k="source" v="survey"/>
+	</changeset>
+</osm>
