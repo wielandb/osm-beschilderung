@@ -12,7 +12,7 @@
 			{"foot":"yes"},
 			{"foot":"designated"}
 		],
-	"img": "",
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/237.png",
 	"ipfs": "QmQCjuMQ4m6FKZAG7onHgXVZHLKHSdEgyT6NNXR1pEDUqN"
 	}
 },
@@ -23,7 +23,15 @@
 			{"highway":"cycleway"},
 			{"bicycle":"designated"},
 			{"traffic_sign":"DE:237,1020-30"}
-		]
+		],
+	"remove": 
+		[
+			{"foot":"yes"},
+			{"foot":"designated"}
+		],
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/237_1020-30.png",
+	"ipfs": "QmQCjuMQ4m6FKZAG7onHgXVZHLKHSdEgyT6NNXR1pEDUqN"
+
 	}
 },
 {"238":
@@ -32,7 +40,7 @@
 			{"highway":"bridleway"},
 			{"traffic_sign":"DE:238"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/238.png"
 	}
 },
 {"239":
@@ -42,7 +50,7 @@
 			{"foot":"designated"},
 			{"traffic_sign":"DE:239"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239.png"
 	}
 },
 {"239_254":
@@ -53,7 +61,7 @@
 			{"bicycle":"no"},
 			{"traffic_sign":"DE:239;254"}
 		],
-	"img": "",
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_254.png",
 	"wrong":true
 	}
 },
@@ -65,7 +73,7 @@
 			{"bicycle":"dismount"},
 			{"traffic_sign":"DE:239;1012-32"}
 		],
-	"img": "",
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/1012-32.png",
 	"wrong":true
 	}
 },
@@ -77,7 +85,7 @@
 			{"foot":"designated"},
 			{"traffic_sign":"DE:239,1020-30"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1020-30.png"
 	}
 },
 {"239_1022-10":
@@ -88,7 +96,7 @@
 			{"foot":"designated"},
 			{"traffic_sign":"DE:239,1022-10"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1022-10.png"
 	}
 },
 {"240":
@@ -100,7 +108,7 @@
 			{"segregated":"no"},
 			{"traffic_sign":"DE:240"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240.png"
 	}
 },
 {"240_1020-30":
@@ -113,7 +121,7 @@
 			{"segregated":"no"},
 			{"traffic_sign":"DE:240,1020-30"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240_1020-30.png"
 	}
 },
 {"241":
@@ -125,7 +133,7 @@
 			{"segregated":"yes"},
 			{"traffic_sign":"DE:240"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/241.png"
 	}
 },
 {"242":
@@ -135,7 +143,7 @@
 			{"foot":"designated"},
 			{"traffic_sign":"DE:242"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/242.png"
 	}
 },
 {"242_1022-10":
@@ -146,7 +154,7 @@
 			{"foot":"designated"},
 			{"traffic_sign":"DE:242"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/242_1022-10.png"
 	}
 },
 {"250":
@@ -155,7 +163,7 @@
 			{"vehicle":"no"},
 			{"traffic_sign":"DE:250"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250.png"
 	}
 },
 {"250_257-51":
@@ -165,7 +173,7 @@
 			{"horse":"no"},
 			{"traffic_sign":"DE:250;257-51"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_257-51.png"
 	}
 },
 {"250_1020-30":
@@ -175,7 +183,7 @@
 			{"vehicle":"destination"},
 			{"traffic_sign":"DE:250,1020-12"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1020-30.png"
 	}
 },
 {"250_1022-10":
@@ -185,7 +193,7 @@
 			{"vehicle":"no"},
 			{"traffic_sign":"DE:250,1022-10"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1022-10.png"
 	}
 },
 {"250_1026-36":
@@ -194,7 +202,7 @@
 			{"vehicle":"agricultural"},
 			{"traffic_sign":"DE:250,1026-36"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-36.png"
 	}
 },
 {"250_1026-38":
@@ -203,7 +211,7 @@
 			{"vehicle":"agricultural;forestry"},
 			{"traffic_sign":"DE:250,1026-38"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-38.png"
 	}
 },
 {"254":
@@ -212,7 +220,7 @@
 			{"bicycle":"no"},
 			{"traffic_sign":"DE:254"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/254.png"
 	}
 },
 {"254_1012-32":
@@ -221,7 +229,7 @@
 			{"bicycle":"no"},
 			{"traffic_sign":"DE:254;1012-32"}
 		],
-	"img": "",
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/254_1012-32.png",
 	"wrong":true
 	}
 },
@@ -231,7 +239,7 @@
 			{"motor_vehicle":"no"},
 			{"traffic_sign":"DE:260"}
 			],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260.png"
 	}
 },
 {"260_1020-30":
@@ -240,7 +248,7 @@
 			{"motor_vehicle":"destination"},
 			{"traffic_sign":"DE:260,1020-30"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1020-30.png"
 	}
 },
 {"260_1026-36":
@@ -249,7 +257,7 @@
 			{"motor_vehicle":"agricultural"},
 			{"traffic_sign":"DE:260,1026-36"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-36.png"
 	}
 },
 {"260_1026-38":
@@ -258,7 +266,7 @@
 			{"motor_vehicle":"agricultural,forestry"},
 			{"traffic_sign":"DE:260,1026-38"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-38.png"
 	}
 },
 {"1012-32":
@@ -267,7 +275,7 @@
 			{"bicycle":"dismount"},
 			{"traffic_sign":"DE:1012-32"}
 		],
-	"img": "",
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/1012-32.png",
 	"wrong":true
 	}
 },
@@ -277,7 +285,7 @@
 			{"bicycle":"yes"},
 			{"traffic_sign":"DE:1022-10"}
 		],
-	"img": ""
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/1022-10.png"
 	}
 },
 {"253":
@@ -286,7 +294,7 @@
 			{"hgv":"no"},
 			{"traffic_sign":"DE:253"}
 		],
-	"img": ""
+	"img": "https://osmtools.de/traffic_signs/img/253.png"
 	}
 },
 {"259":
@@ -295,7 +303,7 @@
 			{"foot":"no"},
 			{"traffic_sign":"DE:259"}
 		],
-	"img": ""
+	"img": "https://osmtools.de/traffic_signs/img/259.png"
 	}
 },
 {"325":
@@ -304,7 +312,7 @@
 			{"highway":"living_street"},
 			{"traffic_sign":"DE:325"}
 		],
-	"img": ""
+	"img": "https://osmtools.de/traffic_signs/img/325.png"
 	}
 },
 {"274-5":
@@ -313,7 +321,7 @@
 			{"maxspeed":"5"},
 			{"traffic_sign":"DE:274[5]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Zeichen_274-5_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-5_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-10":
@@ -322,7 +330,7 @@
 			{"maxspeed":"10"},
 			{"traffic_sign":"DE:274[10]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Zeichen_274-10_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-10_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-20":
@@ -331,7 +339,7 @@
 			{"maxspeed":"20"},
 			{"traffic_sign":"DE:274[20]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Zeichen_274-20_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-20_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-30":
@@ -340,7 +348,7 @@
 			{"maxspeed":"30"},
 			{"traffic_sign":"DE:274[30]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Zeichen_274-30_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-30_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-40":
@@ -349,7 +357,7 @@
 			{"maxspeed":"40"},
 			{"traffic_sign":"DE:274[40]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Zeichen_274-40_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-40_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-50":
@@ -358,7 +366,7 @@
 			{"maxspeed":"50"},
 			{"traffic_sign":"DE:274[50]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Zeichen_274-50_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-50_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-60":
@@ -367,7 +375,7 @@
 			{"maxspeed":"60"},
 			{"traffic_sign":"DE:274[60]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Zeichen_274-60_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-60_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-70":
@@ -376,7 +384,7 @@
 			{"maxspeed":"70"},
 			{"traffic_sign":"DE:274[70]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zeichen_274-70_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-70_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-80":
@@ -385,7 +393,7 @@
 			{"maxspeed":"80"},
 			{"traffic_sign":"DE:274[80]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Zeichen_274-80_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-80_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-90":
@@ -394,7 +402,7 @@
 			{"maxspeed":"90"},
 			{"traffic_sign":"DE:274[90]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zeichen_274-90_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-90_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-100":
@@ -403,7 +411,7 @@
 			{"maxspeed":"100"},
 			{"traffic_sign":"DE:274[100]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Zeichen_274-100_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-100_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-110":
@@ -412,7 +420,7 @@
 			{"maxspeed":"110"},
 			{"traffic_sign":"DE:274[110]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Zeichen_274-110_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-110_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-120":
@@ -421,7 +429,7 @@
 			{"maxspeed":"120"},
 			{"traffic_sign":"DE:274[120]"}
 		],
-	"img": ""
+	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Zeichen_274-120_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-120_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
 	}
 },
 {"274-130":
@@ -430,7 +438,7 @@
 			{"maxspeed":"130"},
 			{"traffic_sign":"DE:274[130]"}
 		],
-	"img": ""
+	"img": "https://de.wikipedia.org/wiki/Datei:Zeichen_274-130_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit,_StVO_2017.svg"
 	}
 },
 {"242_1022-10_1026-35_1026-30":

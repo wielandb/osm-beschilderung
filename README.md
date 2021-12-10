@@ -41,7 +41,7 @@ Die JSON-Datei ist eine Liste von Dictionarys. Hier ein Beispiel für ein solche
 #### `remove`
 
 Eigentlich sollte die App nur Daten zu Wegen hinzufügen, allerdings kann es sein, dass das einfache hinzufügen von Daten zu widersprüchlichen Daten führen kann. Wenn die App zum Beispiel einen Fußweg, der fälschlicherweise als gemeinsamer Fuß- und Radweg getaggt ist (`foot=designated;bicycle=designated`) einfach die Tags laut `tags` hinzufügt bzw. updated, würde im beschriebenen Szenario `bicycle=designated` bestehen bleiben. Das wäre widersprüchlich. Deswegen entfernt die App gewisse Kombinationen, die eventuell bereits vorhanden sind.
-Wichtig hierbei zu erwähnen ist auch, dass die App absichtlich meistens nicht ganze Tags löscht, sondern nur bestimmte Kombinationen. Dadurch sollen redundantes, aber prinzipiell korrektes Tagging bestehen bleiben. Einen Fußweg mit `bicycle=no` zu kennzeichnen ist technisch gesehen nicht notwendig, da das andere Tagging bereits impliziert, dass Fahrräder hier verboten sind. Aber da es faktisch korrekt ist, und wir bei OSM keine faktisch korrekten Daten löschen wollen, lasse ich diesen Tag so.
+Wichtig hierbei zu erwähnen ist auch, dass die App absichtlich meistens nicht ganze Tags löscht, sondern nur bestimmte Kombinationen. Dadurch soll redundantes, aber prinzipiell korrektes Tagging bestehen bleiben. Einen Fußweg mit `bicycle=no` zu kennzeichnen ist technisch gesehen nicht notwendig, da das andere Tagging bereits impliziert, dass Fahrräder hier verboten sind. Aber da es faktisch korrekt ist, und wir bei OSM keine faktisch korrekten Daten löschen wollen, lasse ich diesen Tag so.
 
 #### `ipfs`
 
