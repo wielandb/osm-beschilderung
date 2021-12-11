@@ -40,6 +40,13 @@
 			{"highway":"bridleway"},
 			{"traffic_sign":"DE:238"}
 		],
+	"remove": 
+		[
+			{"foot":"yes"},
+			{"foot":"designated"},
+			{"bicycle":"yes"},
+			{"bicycle":"designated"}
+			],
 	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/238.png"
 	}
 },
