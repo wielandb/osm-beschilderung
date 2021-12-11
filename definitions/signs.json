@@ -547,5 +547,72 @@
 		],
 	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Zeichen_103-20_-_Kurve_%28rechts%29%2C_StVO_1992.svg/120px-Zeichen_103-20_-_Kurve_%28rechts%29%2C_StVO_1992.svg.png"
 	}
+},
+{"354":
+	{"tags":
+		[
+			{"hazmat:water":"permissive"},
+			{"traffic_sign":"DE:354"}
+		],
+	"remove":
+		[
+		{"hazmat":"no"}
+		]
+	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Zeichen_354_-_Wasserschutzgebiet%2C_StVO_1988.svg/80px-Zeichen_354_-_Wasserschutzgebiet%2C_StVO_1988.svg.png"
+	}
+},
+{"269":
+	{"tags":
+		[
+			{"hazmat:water":"no"},
+			{"traffic_sign":"DE:269"}
+		],
+	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Zeichen_269_-_Verbot_f%C3%BCr_Fahrzeuge_mit_wassergef%C3%A4hrdender_Ladung%2C_StVO_1988.svg/120px-Zeichen_269_-_Verbot_f%C3%BCr_Fahrzeuge_mit_wassergef%C3%A4hrdender_Ladung%2C_StVO_1988.svg.png"
+	}
+},
+{"261":
+	{"tags":
+		[
+			{"hazmat":"no"},
+			{"traffic_sign":"DE:261"}
+		],
+	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Zeichen_261_-_Verbot_f%C3%BCr_kennzeichnungspflichtige_Kraftfahrzeuge_mit_gef%C3%A4hrlichen_G%C3%BCtern%2C_StVO_1988.svg/120px-Zeichen_261_-_Verbot_f%C3%BCr_kennzeichnungspflichtige_Kraftfahrzeuge_mit_gef%C3%A4hrlichen_G%C3%BCtern%2C_StVO_1988.svg.png"
+	}
+},
+{"261_1014-50":
+	{"tags":
+		[
+			{"hazmat:B":"no"},
+			{"traffic_sign":"DE:261,1014-50"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/261_1014-50.png"
+	}
+},
+{"261_1014-51":
+	{"tags":
+		[
+			{"hazmat:C":"no"},
+			{"traffic_sign":"DE:261,1014-51"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/261_1014-51.png"
+	}
+},
+{"261_1014-52":
+	{"tags":
+		[
+			{"hazmat:D":"no"},
+			{"traffic_sign":"DE:261,1014-52"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/261_1014-52.png"
+	}
+},
+{"261_1014-53":
+	{"tags":
+		[
+			{"hazmat:E":"no"},
+			{"traffic_sign":"DE:261,1014-53"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/261_1014-53.png"
+	}
 }
 ]
