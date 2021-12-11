@@ -319,6 +319,7 @@
 	{"tags":
 		[
 			{"maxspeed":"5"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[5]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Zeichen_274-5_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-5_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -328,6 +329,7 @@
 	{"tags":
 		[
 			{"maxspeed":"10"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[10]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Zeichen_274-10_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-10_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -337,6 +339,7 @@
 	{"tags":
 		[
 			{"maxspeed":"20"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[20]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Zeichen_274-20_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-20_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -346,6 +349,7 @@
 	{"tags":
 		[
 			{"maxspeed":"30"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[30]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Zeichen_274-30_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-30_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -355,6 +359,7 @@
 	{"tags":
 		[
 			{"maxspeed":"40"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[40]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Zeichen_274-40_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-40_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -364,6 +369,7 @@
 	{"tags":
 		[
 			{"maxspeed":"50"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[50]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Zeichen_274-50_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-50_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -373,6 +379,7 @@
 	{"tags":
 		[
 			{"maxspeed":"60"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[60]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Zeichen_274-60_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-60_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -382,6 +389,7 @@
 	{"tags":
 		[
 			{"maxspeed":"70"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[70]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zeichen_274-70_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-70_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -391,6 +399,7 @@
 	{"tags":
 		[
 			{"maxspeed":"80"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[80]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Zeichen_274-80_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-80_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -400,6 +409,7 @@
 	{"tags":
 		[
 			{"maxspeed":"90"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[90]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zeichen_274-90_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-90_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -409,6 +419,7 @@
 	{"tags":
 		[
 			{"maxspeed":"100"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[100]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Zeichen_274-100_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-100_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -418,6 +429,7 @@
 	{"tags":
 		[
 			{"maxspeed":"110"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[110]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Zeichen_274-110_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-110_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -427,6 +439,7 @@
 	{"tags":
 		[
 			{"maxspeed":"120"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[120]"}
 		],
 	"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Zeichen_274-120_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-120_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png"
@@ -436,6 +449,7 @@
 	{"tags":
 		[
 			{"maxspeed":"130"},
+			{"maxspeed:type":"sign"},
 			{"traffic_sign":"DE:274[130]"}
 		],
 	"img": "https://de.wikipedia.org/wiki/Datei:Zeichen_274-130_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit,_StVO_2017.svg"
