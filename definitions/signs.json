@@ -503,8 +503,49 @@
 		],
 	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-32.png"
 	}
-
+},
+{"124":
+	{"tags":
+		[
+			{"hazard":"queues_likely"},
+			{"traffic_sign":"DE:124"}
+		],
+	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Zeichen_124_-_Stau%2C_StVO_1992.svg/180px-Zeichen_124_-_Stau%2C_StVO_1992.svg.png"
+	}
+},
+{"133-10":
+	{"tags":
+		[
+			{"hazard":"pedestrians"},
+			{"traffic_sign":"DE:133-10"}
+		],
+	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Zeichen_133-10_-_Fu%C3%9Fg%C3%A4nger_%28Aufstellung_rechts%29%2C_StVO_1992.svg/180px-Zeichen_133-10_-_Fu%C3%9Fg%C3%A4nger_%28Aufstellung_rechts%29%2C_StVO_1992.svg.png"
+	}
+},
+{"136-10":
+	{"tags":
+		[
+			{"hazard":"children"},
+			{"traffic_sign":"DE:136-10"}
+		],
+	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Zeichen_133-10_-_Fu%C3%9Fg%C3%A4nger_%28Aufstellung_rechts%29%2C_StVO_1992.svg/120px-Zeichen_133-10_-_Fu%C3%9Fg%C3%A4nger_%28Aufstellung_rechts%29%2C_StVO_1992.svg.png"
+	}
+},
+{"142-10":
+	{"tags":
+		[
+			{"hazard":"animal_crossing"},
+			{"traffic_sign":"DE:142-10"}		],
+	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Zeichen_142-20_-_Wildwechsel%2C_Aufstellung_links%2C_StVO_1992.svg/120px-Zeichen_142-20_-_Wildwechsel%2C_Aufstellung_links%2C_StVO_1992.svg.png"
+	}
+},
+{"103-10":
+	{"tags":
+		[
+			{"hazard":"curve"},
+			{"traffic_sign":"DE:103-10"}
+		],
+	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Zeichen_103-20_-_Kurve_%28rechts%29%2C_StVO_1992.svg/120px-Zeichen_103-20_-_Kurve_%28rechts%29%2C_StVO_1992.svg.png"
+	}
 }
-
-
 ]
