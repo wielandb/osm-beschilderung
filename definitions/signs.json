@@ -193,7 +193,8 @@
 			{"horse":"no"},
 			{"traffic_sign":"DE:250;257-51"}
 		],
-	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_257-51.png"
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_257-51.png",
+	"cat": 2
 	}
 },
 {"250_1020-12":
