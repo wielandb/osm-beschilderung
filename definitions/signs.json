@@ -59,9 +59,9 @@
 			{"foot":"designated"},
 			{"traffic_sign":"DE:239"}
 		],
-	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239.png"
-	},
+	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239.png",
 	"cat": 1
+	}
 },
 {"239_254":
 	{"tags":
