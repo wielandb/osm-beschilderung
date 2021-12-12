@@ -35,6 +35,7 @@ Die JSON-Datei ist eine Liste von Dictionarys. Hier ein Beispiel für ein solche
 - `img` (notwendig): Gibt einen direkten Link zu einer .png-Datei an, die dieses Zeichen/diese Zeichenkombination zeigt, damit sie in der App angezeigt werden kann.
 - `ipfs` (optional): Gibt den einen IPFS-Hash zu einer .png-Datei an, die dieses Zeichen/diese Zeichenkombination zeigt, damit sie in der App angezeigt werden kann.
 - `wrong` (optional): Gibt an, ob eine Verkehrszeichenkombination "falsch"/"sinnlos" ist. Sollte weggelassen werden, wenn `false`
+- `cat` (notwendig): Gibt die Kategorie des Zeichens an
 
 ### Genauere Erklärung und Verwendung der Tags innerhalb der App:
 
@@ -54,6 +55,15 @@ Ein gutes Beispiel ist die Kombination der Zeichen "Fußweg" und "Radfahrer abst
 Allerdings orientiert sich diese App an der "on-the-ground-Regel" von OpenStreetMap. Heißt: Wenn es explizit ein Schild gibt, das etwas anweist, auch wenn die Anweisung eigentlich nicht notwendig ist, wird es mit getaggt.
 So wird also "Fußweg" mit `foot=designated` getaggt, aber "Fußweg;Radfahrer absteigen" mit `foot=designated;bicycle=dismount`. Genau so wird "Fußweg;Fahrradfahren verboten" mit `foot=designated;biycle=no` getaggt, obwohl auch auf einem normalen Fußweg implizit `bicycle=no` gilt.
 Ist der Schlüssel `wrong` auf `true` gesetzt (er sollte nicht vorhanden sein, wenn es nicht so ist) so wird diese Kombination in einem seperaten Abschnitt angezeigt. 
+
+#### `cat`
+Damit die Verkehrszeichen in der App geordnet werden können, haben sie alle eine Kategorie. Es gibt folgende Kategorien:
+
+^ Nummer ^ Name ^
+| 1 | Gebotszeichen |
+| 2 | Verbotszeichen |
+| 3 | Warnzeichen |
+| 4 | Sonstige |
 
 ## Namenskonventionen der png-Dateien und Schlüsselwerte
 
