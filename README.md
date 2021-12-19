@@ -59,11 +59,12 @@ Ist der Schlüssel `wrong` auf `true` gesetzt (er sollte nicht vorhanden sein, w
 #### `cat`
 Damit die Verkehrszeichen in der App geordnet werden können, haben sie alle eine Kategorie. Es gibt folgende Kategorien:
 
-^ Nummer ^ Name ^
-| 1 | Gebotszeichen |
-| 2 | Verbotszeichen |
-| 3 | Warnzeichen |
-| 4 | Sonstige |
+| Nummer | Name           |
+|--------|----------------|
+| 1      | Gebotszeichen  |
+| 2      | Verbotszeichen |
+| 3      | Warnzeichen    |
+| 4      | Sonstige       |
 
 ## Namenskonventionen der png-Dateien und Schlüsselwerte
 
