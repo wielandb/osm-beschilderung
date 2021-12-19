@@ -673,5 +673,15 @@
 	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/261_1014-53.png",
 	"cat": 2
 	}
+},
+{"250_1020-30_1026-35":
+	{"tags":
+		[
+			{"vehicle":"destination;delivery"},
+			{"traffic_sign":"DE:250,1020-30,1026-35"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1020-30_1026-35.png",
+	"cat": 2
+	}
 }
 ]
