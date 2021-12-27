@@ -733,6 +733,12 @@
 			{"vehicle":"no"},
 			{"traffic_sign":"DE:250,1024-14"}
 		],
+	"remove":
+		[
+		{"psv":"yes"},
+		{"psv":"designated"},
+		{"taxi":"yes"}
+		],
 	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1024-14.png",
 	"cat": 2
 	}
@@ -766,7 +772,7 @@
 			{"psv":"yes"},
 			{"vehicle":"no"},
 			{"bicycle":"dismount"},
-			{"traffic_sign":"DE:250,1026-32,1026-30"}
+			{"traffic_sign":"DE:250,1026-32,1026-30,1012-32"}
 		],
 	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-32_1026-30_1012-32.png",
 	"cat": 2,
