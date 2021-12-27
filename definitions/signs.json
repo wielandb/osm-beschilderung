@@ -748,5 +748,16 @@
 	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/237_1020-13.png",
 	"cat": 2
 	}
+},
+{"250_1026-32_1026-30":
+	{"tags":
+		[
+			{"psv":"yes"},
+			{"vehicle":"no"},
+			{"traffic_sign":"DE:250,1026-32,1026-30"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-32_1026-30.png",
+	"cat": 2
+	}
 }
 ]
