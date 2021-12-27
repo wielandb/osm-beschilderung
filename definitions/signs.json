@@ -724,5 +724,29 @@
 	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-35_1022-10.png",
 	"cat": 2
 	}
+},
+{"250_1024-14":
+	{"tags":
+		[
+			{"bus":"yes"},
+			{"tourist_bus":"yes"},
+			{"vehicle":"no"}
+			{"traffic_sign":"DE:250,1024-14"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1024-14.png",
+	"cat": 2
+	}
+},
+{"237_1020-13":
+	{"tags":
+		[
+			{"inline_skates":"yes"},
+			{"highway":"cycleway"},
+			{"bicycle":"designated"},
+			{"traffic_sign":"DE:237,1020-13"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/237_1020-13.png",
+	"cat": 2
+	}
 }
 ]
