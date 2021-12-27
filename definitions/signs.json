@@ -730,7 +730,7 @@
 		[
 			{"bus":"yes"},
 			{"tourist_bus":"yes"},
-			{"vehicle":"no"}
+			{"vehicle":"no"},
 			{"traffic_sign":"DE:250,1024-14"}
 		],
 	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1024-14.png",
