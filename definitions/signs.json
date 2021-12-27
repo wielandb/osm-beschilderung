@@ -147,7 +147,7 @@
 			{"bicycle":"designated"},
 			{"foot":"designated"},
 			{"segregated":"yes"},
-			{"traffic_sign":"DE:240"}
+			{"traffic_sign":"DE:241"}
 		],
 	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/241.png",
 	"cat": 1
