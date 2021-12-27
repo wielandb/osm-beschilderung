@@ -713,5 +713,16 @@
 	"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Zeichen_266-10_-_Verbot_f%C3%BCr_Fahrzeuge_%C3%BCber_angegebene_tats%C3%A4chliche_L%C3%A4nge%2C_StVO_2017.svg/120px-Zeichen_266-10_-_Verbot_f%C3%BCr_Fahrzeuge_%C3%BCber_angegebene_tats%C3%A4chliche_L%C3%A4nge%2C_StVO_2017.svg.png",
 	"cat": 2
 	}
+},
+{"250_1026-35_1022-10":
+	{"tags":
+		[
+			{"bicycle":"yes"},
+			{"vehicle":"delivery"},
+			{"traffic_sign":"DE:250,1026-35,1022-10"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-35_1022-10.png",
+	"cat": 2
+	}
 }
 ]
