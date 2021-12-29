@@ -279,7 +279,11 @@
 		[
 			{"motor_vehicle":"no"},
 			{"traffic_sign":"DE:260"}
-			],
+		],
+	"remove":
+		[
+			{"vehicle":"no"}
+		],
 	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260.png",
 	"cat": 2
 	}
@@ -309,6 +313,14 @@
 		[
 			{"motor_vehicle":"agricultural,forestry"},
 			{"traffic_sign":"DE:260,1026-38"}
+		],
+	"remove":
+		[
+			{"vehicle":"agricultural,forestry"},
+			{"vehicle":"no"},
+			{"vehicle":"private"},
+			{"vehicle":"agricultural"},
+			{"vehicle":"forestry"}			
 		],
 	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-38.png",
 	"cat": 2
@@ -350,6 +362,10 @@
 		[
 			{"foot":"no"},
 			{"traffic_sign":"DE:259"}
+		],
+	"remove": 
+		[
+			{"access":"no"}
 		],
 	"img": "https://osmtools.de/traffic_signs/img/259.png",
 	"cat": 2
@@ -691,7 +707,7 @@
 			{"access":"destination"},
 			{"access":"delivery"},
 			{"access":"private"}
-		]
+		],
 	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1020-30_1026-35.png",
 	"cat": 2
 	}
