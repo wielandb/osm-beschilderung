@@ -204,6 +204,10 @@
 			{"vehicle":"destination"},
 			{"traffic_sign":"DE:250,1020-12"}
 		],
+	"remove":
+		[
+			{"access":"destination"}
+		],
 	"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1020-12.png",
 	"cat": 2
 	}
@@ -680,6 +684,14 @@
 			{"vehicle":"destination;delivery"},
 			{"traffic_sign":"DE:250,1020-30,1026-35"}
 		],
+	"remove":
+		[
+			{"access":"destination;delivery"},
+			{"access":"no"},
+			{"access":"destination"},
+			{"access":"delivery"},
+			{"access":"private"}
+		]
 	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1020-30_1026-35.png",
 	"cat": 2
 	}
