@@ -819,5 +819,52 @@
 	"cat": 2,
 	"wrong": true
 	}
+},
+{"260_1026-39":
+	{"tags":
+		[
+			{"motor_vehicle":"private;delivery"},
+			{"traffic_sign":"DE:260,1026-39"}
+		],
+	"remove":
+		[
+			{"access":"private"},
+			{"vehicle":"private"},
+			{"access":"delivery"},
+			{"vehicle":"delivery"},
+			{"access":"private;delivery"},
+			{"vehicle":"private;delivery"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-39.png",
+	"cat": 2
+	}
+},
+{"240_1000-31":
+	{"tags":
+		[
+			{"highway":"path"},
+			{"bicycle":"designated"},
+			{"foot":"designated"},
+			{"segregated":"no"},
+			{"oneway":"no"},
+			{"traffic_sign":"DE:240,1026-39"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240_1000-31.png",
+	"cat": 1
+	}
+},
+{"241_1000-31":
+	{"tags":
+		[
+			{"highway":"path"},
+			{"bicycle":"designated"},
+			{"foot":"designated"},
+			{"segregated":"yes"},
+			{"oneway":"no"},
+			{"traffic_sign":"DE:241,1000-31"}
+		],
+	"img":"https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/241_1000-31.png",
+	"cat": 1
+	}
 }
 ]
