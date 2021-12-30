@@ -9,9 +9,13 @@ opq_1 = "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%
 opq_2 = "%22%5D%3B%0A%29%3B%0Aout%20count%3B"
 
 def getFreq(ix):
+    if isinstance(ix, dict):
+        return int(ix[list(ix.keys())[0]]["frequency"])
     for vzix in range(len(alt_liste)):
         if vzix == ix:
-            return alt_liste[vzix][traffic_sign_key]["frequency"]
+            traffic_sign_key = list(alt_liste[vzix].keys())[0]
+            return int(alt_liste[vzix][traffic_sign_key]["frequency"])
+    return 99999999
 
 ### Schritt 0: Die Liste aus der Datei laden
 
@@ -33,26 +37,12 @@ for vzix in range(len(alt_liste)):
         ansj = ans.json()
         freq = ansj["elements"][0]["tags"]["total"]
         print(traffic_sign_key + " - " + freq)
-    sleep(30)
-    alt_liste[vzix][traffic_sign_key]["frequency"] = freq
+    sleep(20)
+    alt_liste[vzix][traffic_sign_key]["frequency"] = int(freq)
 
 ### Schritt 2: Die Liste sortieren und abspeichern
 
-for item in alt_liste:
-    if len(neu_liste) == 0:
-        neu_liste.append(item)
-    if len(neu_liste) == 1:
-        pass
-    if len(neu_liste) == 2:
-        pass
-    else:
-        pass
-        
-
-
-
-
-neu_liste = sorted(alt_liste, key=lambda x: (alt_liste[x]["frequency"], your_dict[x]['cat']))
+neu_liste = sorted(alt_liste, reverse=True, key=lambda x: getFreq(x))
 
 with open("../definitions/signs.json", "w") as f:
-    f.write(json.dumps(neu_liste))
+    f.write(json.dumps(neu_liste, indent=4))
