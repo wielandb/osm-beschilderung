@@ -23,7 +23,9 @@ Die JSON-Datei ist eine Liste von Dictionarys. Hier ein Beispiel für ein solche
 		],
 	"img": "https://example.com/img/237.png",
 	"ipfs": "QmQCjuMQ4m6FKZAG7onHgXVZHLKHSdEgyT6NNXR1pEDUqN",
-	"wrong": false
+	"wrong": false,
+	"cat": 1,
+	"frequency": 33480
 	}
 }
 ```
@@ -36,6 +38,7 @@ Die JSON-Datei ist eine Liste von Dictionarys. Hier ein Beispiel für ein solche
 - `ipfs` (optional): Gibt den einen IPFS-Hash zu einer .png-Datei an, die dieses Zeichen/diese Zeichenkombination zeigt, damit sie in der App angezeigt werden kann.
 - `wrong` (optional): Gibt an, ob eine Verkehrszeichenkombination "falsch"/"sinnlos" ist. Sollte weggelassen werden, wenn `false`
 - `cat` (notwendig): Gibt die Kategorie des Zeichens an
+- `frequency` (automatisch): Gibt die Häufigkeit dieses Verkehrszeichens/dieser Kombination in der OSM-Datenbank an
 
 ### Genauere Erklärung und Verwendung der Tags innerhalb der App:
 
@@ -65,6 +68,10 @@ Damit die Verkehrszeichen in der App geordnet werden können, haben sie alle ein
 | 2      | Verbotszeichen |
 | 3      | Warnzeichen    |
 | 4      | Sonstige       |
+
+#### `frequency`
+
+Im Ordner scripts gibt es ein Python-Skript, mit dem die Elemente der signs.json nach ihrer Häufigkeit in der OSM-Datenbank sortiert werden. Diese Häufigkeit steht anschließend in diesem Schlüssel zur Verfügung.
 
 ## Namenskonventionen der png-Dateien und Schlüsselwerte
 
