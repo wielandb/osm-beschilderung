@@ -1407,5 +1407,32 @@
             "cat": 2,
             "frequency": 0
         }
+    },
+    {
+        "240_1022-11": {
+            "tags": [
+                {
+                    "mofa": "yes"
+                },
+                {
+                    "highway": "path"
+                },
+                {
+                    "bicycle": "designated"
+                },
+                {
+                    "foot": "designated"
+                },
+                {
+                    "segregated": "no"
+                },
+                {
+                    "traffic_sign": "DE:240,1022-11"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240_1022-11.png",
+            "cat": 1,
+            "frequency": 0
+        }
     }
 ]
