@@ -1508,5 +1508,32 @@
             "cat": 1,
             "frequency": 0
         }
+    },
+    {
+        "240_2025": {
+            "tags": [
+                {
+                    "winter_service": "limited"
+                },
+                {
+                    "highway": "path"
+                },
+                {
+                    "bicycle": "designated"
+                },
+                {
+                    "foot": "designated"
+                },
+                {
+                    "segregated": "no"
+                },
+                {
+                    "traffic_sign": "DE:240,2025"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240_2025.png",
+            "cat": 1,
+            "frequency": 0
+        }
     }
 ]
