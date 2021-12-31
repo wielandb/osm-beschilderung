@@ -1535,5 +1535,27 @@
             "cat": 1,
             "frequency": 0
         }
+    },
+    {
+        "260_1020-31": {
+            "tags": [
+                {
+                    "motor_vehicle": "destination"
+                },
+                {
+                    "traffic_sign": "DE:260,1020-31"
+                }
+            ],
+			"remove": 
+				[
+					{"access":"no"},
+					{"access":"destination"},
+					{"vehicle":"no"},
+					{"vehicle":"destination"}
+				],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1020-31.png",
+            "cat": 2,
+            "frequency": 2854
+        }
     }
 ]
