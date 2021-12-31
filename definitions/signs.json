@@ -1434,5 +1434,68 @@
             "cat": 1,
             "frequency": 0
         }
+    },
+    {
+        "260_1026-32": {
+            "tags": [
+                {
+                    "bus": "yes"
+                },
+                {
+                    "motor_vehicle": "no"
+                },
+                {
+                    "traffic_sign": "DE:260,1026-32"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-32.png",
+            "cat": 2,
+            "frequency": 0
+        }
+    },
+    {
+        "260_325": {
+            "tags": [
+                {
+                    "highway": "living_street"
+                },
+                {
+                    "motor_vehicle": "no"
+                },
+                {
+                    "traffic_sign": "DE:260;325"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_325.png",
+            "cat": 2,
+            "frequency": 0
+        }
+    },
+    {
+        "240_2001": {
+            "tags": [
+                {
+                    "winter_service": "no"
+                },
+                {
+                    "highway": "path"
+                },
+                {
+                    "bicycle": "designated"
+                },
+                {
+                    "foot": "designated"
+                },
+                {
+                    "segregated": "no"
+                },
+                {
+                    "traffic_sign": "DE:240,2001"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240_2001.png",
+            "cat": 1,
+            "frequency": 0
+        }
     }
 ]
