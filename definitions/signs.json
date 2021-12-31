@@ -111,6 +111,9 @@
                     "traffic_sign": "DE:250"
                 }
             ],
+			"remove":[
+				{"access":"no"}			
+			],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250.png",
             "cat": 2,
             "frequency": 3723
@@ -126,6 +129,13 @@
                     "traffic_sign": "DE:260,1020-30"
                 }
             ],
+			"remove": 
+				[
+					{"access":"no"},
+					{"access":"destination"},
+					{"vehicle":"no"},
+					{"vehicle":"destination"}
+				],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1020-30.png",
             "cat": 2,
             "frequency": 2854
@@ -322,7 +332,8 @@
             "remove": [
                 {
                     "access": "destination"
-                }
+                },
+				{"access":"no"}
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1020-30.png",
             "cat": 2,
