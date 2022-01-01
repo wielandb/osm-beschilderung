@@ -1612,5 +1612,32 @@
             "cat": 2,
             "frequency": 0
         }
+    },
+    {
+        "250_1026-39": {
+            "tags": [
+                {
+                    "vehicle": "private;delivery"
+                },
+                {
+                    "traffic_sign": "DE:250,1026-39"
+                }
+            ],
+			"remove": 
+				[
+					{"access":"no"},
+					{"access":"destination"},
+					{"access":"private;delivery"}
+					{"access":"delivery"},
+					{"motor_vehicle":"destination;delivery"},
+					{"motor_vehicle":"no"},
+					{"motor_vehicle":"destination"},
+					{"access":"forestry"},
+					{"motor_car":"forestry"}
+				],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-39.png",
+            "cat": 2,
+            "frequency": 0
+        }
     }
 ]
