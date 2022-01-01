@@ -1559,5 +1559,31 @@
             "cat": 2,
             "frequency": 2854
         }
+    },
+    {
+        "260_1026-37": {
+            "tags": [
+                {
+                    "motor_vehicle": "forestry"
+                },
+                {
+                    "traffic_sign": "DE:260,1026-37"
+                }
+            ],
+			"remove": 
+				[
+					{"access":"no"},
+					{"access":"destination"},
+					{"access":"permissive"},
+					{"vehicle":"permissive"},
+					{"vehicle":"no"},
+					{"vehicle":"destination"},
+					{"access":"forestry"},
+					{"motor_car":"forestry"}
+				],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-37.png",
+            "cat": 2,
+            "frequency": 0
+        }
     }
 ]
