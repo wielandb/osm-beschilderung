@@ -1579,7 +1579,7 @@
 					{"vehicle":"no"},
 					{"vehicle":"destination"},
 					{"access":"forestry"},
-					{"motor_car":"forestry"}
+					{"motor_car":"no"}
 				],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-37.png",
             "cat": 2,
