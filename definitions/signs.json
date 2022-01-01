@@ -36,6 +36,12 @@
                     "traffic_sign": "DE:239"
                 }
             ],
+			"remove":
+			[
+				{"bicycle":"yes"},
+				{"bicycle":"designated"}
+				
+			]
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239.png",
             "cat": 1,
             "frequency": 8220
