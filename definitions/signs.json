@@ -1600,7 +1600,7 @@
 				[
 					{"access":"no"},
 					{"access":"destination"},
-					{"access":"destination;delivery"}
+					{"access":"destination;delivery"},
 					{"access":"permissive"},
 					{"vehicle":"destination;delivery"},
 					{"vehicle":"no"},
@@ -1627,7 +1627,7 @@
 				[
 					{"access":"no"},
 					{"access":"destination"},
-					{"access":"private;delivery"}
+					{"access":"private;delivery"},
 					{"access":"delivery"},
 					{"motor_vehicle":"destination;delivery"},
 					{"motor_vehicle":"no"},
