@@ -5,6 +5,8 @@ Dieses Repository enthält Definitionsdateien und Bilder für eine App, mit der 
 
 ## Erklärung der JSON-Datei
 
+[Eine Visualisierung der Definitionsdatei findet sich in der signs.md](https://github.com/wielandb/osm-beschilderung/blob/main/signs.md)
+
 Die JSON-Datei ist eine Liste von Dictionarys. Hier ein Beispiel für ein solches Dictionary:
 
 ```

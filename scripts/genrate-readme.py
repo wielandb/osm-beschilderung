@@ -2,7 +2,9 @@ import json
 
 with open("../definitions/signs.json", "r") as f:
     liste = json.loads(f.read())
-    
+
+with open("../README.md", "r") as f:
+    readme = f.read()
 
 MD = "| Bild | Hinzugefügte Tags | Entfernte Tags | Kategorie | Häufigkeit in der OSM-Datenbank | " + "\n" + "|:----:|:-----------------:|:--------------:|:---------:|:-------------------------------:| " + "\n"
 
