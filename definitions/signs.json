@@ -120,7 +120,10 @@
             "remove": [
                 {
                     "access": "no"
-                }
+                },
+				{
+					"foot": "no"
+				}
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250.png",
             "cat": 2,
