@@ -125,7 +125,13 @@
                 },
                 {
                     "foot": "no"
-                }
+                },
+				{
+					"bicycle": "yes"
+				},
+				{
+					"bicycle": "designated"
+				}
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250.png",
             "cat": 2,
