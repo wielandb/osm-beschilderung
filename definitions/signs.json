@@ -1456,9 +1456,6 @@
                     "access": "destination"
                 },
                 {
-                    "highway": "cycleway"
-                },
-                {
                     "bicycle": "designated"
                 },
                 {
