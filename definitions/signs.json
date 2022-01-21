@@ -1077,9 +1077,6 @@
                     "access": "destination"
                 },
                 {
-                    "highway": "footway"
-                },
-                {
                     "foot": "designated"
                 },
                 {
