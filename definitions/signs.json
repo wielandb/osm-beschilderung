@@ -1806,5 +1806,20 @@
             "cat": 2,
             "frequency": 0
         }
+    },
+    {
+        "253_1026-39": {
+            "tags": [
+                {
+                    "hgv": "private;delivery"
+                },
+                {
+                    "traffic_sign": "DE:253,1026-39"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/253_1026-39.png",
+            "cat": 2,
+            "frequency": 0
+        }
     }
 ]
