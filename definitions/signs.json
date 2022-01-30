@@ -1791,5 +1791,20 @@
             "cat": 1,
             "frequency": 0
         }
+    },
+    {
+        "257-51": {
+            "tags": [
+                {
+                    "horse": "no"
+                },
+                {
+                    "traffic_sign": "DE:257-51"
+                }
+            ],
+            "img": "https://osmtools.de/traffic_signs/img/257-51.png",
+            "cat": 2,
+            "frequency": 0
+        }
     }
 ]
