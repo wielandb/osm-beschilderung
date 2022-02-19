@@ -1821,5 +1821,71 @@
             "cat": 2,
             "frequency": 0
         }
+    },
+    {
+        "253_1024-14": {
+            "tags": [
+                {
+                    "hgv": "no"
+                },
+                {
+                    "bus": "yes"
+                },
+                {
+                    "tourist_bus": "yes"
+                },
+                {
+                    "traffic_sign": "DE:253,1024-14"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/253_1024-14.png",
+            "cat": 2,
+            "frequency": 0
+        }
+    },
+    {
+        "253_1020-30": {
+            "tags": [
+                {
+                    "hgv": "destination"
+                },
+                {
+                    "traffic_sign": "DE:253,1024-14"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/253_1020-30.png",
+            "cat": 2,
+            "frequency": 0
+        }
+    },
+    {
+        "2001": {
+            "tags": [
+                {
+                    "winter_service": "no"
+                },
+                {
+                    "traffic_sign": "DE:2001"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/2001.png",
+            "cat": 4,
+            "frequency": 0
+        }
+    },
+    {
+        "2025": {
+            "tags": [
+                {
+                    "winter_service": "limited"
+                },
+                {
+                    "traffic_sign": "DE:2025"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/2025.png",
+            "cat": 4,
+            "frequency": 0
+        }
     }
 ]
