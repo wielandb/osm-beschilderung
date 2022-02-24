@@ -20,7 +20,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240.png",
             "cat": 1,
-            "frequency": 34044
+            "frequency": 34318
         }
     },
     {
@@ -46,7 +46,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239.png",
             "cat": 1,
-            "frequency": 8315
+            "frequency": 8403
         }
     },
     {
@@ -67,7 +67,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1022-10.png",
             "cat": 1,
-            "frequency": 8315
+            "frequency": 7120
         }
     },
     {
@@ -91,7 +91,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/241.png",
             "cat": 1,
-            "frequency": 8315
+            "frequency": 5335
         }
     },
     {
@@ -106,7 +106,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-36.png",
             "cat": 2,
-            "frequency": 4413
+            "frequency": 4448
         }
     },
     {
@@ -135,7 +135,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250.png",
             "cat": 2,
-            "frequency": 3762
+            "frequency": 3806
         }
     },
     {
@@ -164,7 +164,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1020-30.png",
             "cat": 2,
-            "frequency": 2889
+            "frequency": 2914
         }
     },
     {
@@ -179,7 +179,7 @@
             ],
             "img": "https://osmtools.de/traffic_signs/img/325.png",
             "cat": 1,
-            "frequency": 2889
+            "frequency": 2893
         }
     },
     {
@@ -199,7 +199,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260.png",
             "cat": 2,
-            "frequency": 2378
+            "frequency": 2393
         }
     },
     {
@@ -214,7 +214,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Zeichen_269_-_Verbot_f%C3%BCr_Fahrzeuge_mit_wassergef%C3%A4hrdender_Ladung%2C_StVO_1988.svg/120px-Zeichen_269_-_Verbot_f%C3%BCr_Fahrzeuge_mit_wassergef%C3%A4hrdender_Ladung%2C_StVO_1988.svg.png",
             "cat": 2,
-            "frequency": 2270
+            "frequency": 2276
         }
     },
     {
@@ -232,7 +232,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zeichen_274-70_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-70_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png",
             "cat": 2,
-            "frequency": 2207
+            "frequency": 2205
         }
     },
     {
@@ -259,7 +259,7 @@
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/237.png",
             "ipfs": "QmQCjuMQ4m6FKZAG7onHgXVZHLKHSdEgyT6NNXR1pEDUqN",
             "cat": 1,
-            "frequency": 2130
+            "frequency": 2140
         }
     },
     {
@@ -291,7 +291,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-38.png",
             "cat": 2,
-            "frequency": 1826
+            "frequency": 1844
         }
     },
     {
@@ -309,7 +309,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Zeichen_274-30_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-30_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png",
             "cat": 2,
-            "frequency": 1767
+            "frequency": 1770
         }
     },
     {
@@ -324,7 +324,7 @@
             ],
             "img": "https://osmtools.de/traffic_signs/img/253.png",
             "cat": 2,
-            "frequency": 1318
+            "frequency": 1320
         }
     },
     {
@@ -350,7 +350,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1020-30.png",
             "cat": 2,
-            "frequency": 1280
+            "frequency": 1320
         }
     },
     {
@@ -368,7 +368,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Zeichen_274-50_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-50_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png",
             "cat": 2,
-            "frequency": 1261
+            "frequency": 1259
         }
     },
     {
@@ -421,7 +421,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-36.png",
             "cat": 2,
-            "frequency": 1007
+            "frequency": 1014
         }
     },
     {
@@ -462,7 +462,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-38.png",
             "cat": 2,
-            "frequency": 721
+            "frequency": 724
         }
     },
     {
@@ -480,7 +480,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Zeichen_274-60_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-60_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png",
             "cat": 2,
-            "frequency": 672
+            "frequency": 671
         }
     },
     {
@@ -513,7 +513,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/1022-10.png",
             "cat": 4,
-            "frequency": 467
+            "frequency": 472
         }
     },
     {
@@ -540,7 +540,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240_1022-11.png",
             "cat": 1,
-            "frequency": 394
+            "frequency": 395
         }
     },
     {
@@ -581,7 +581,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-37.png",
             "cat": 2,
-            "frequency": 319
+            "frequency": 320
         }
     },
     {
@@ -619,7 +619,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Zeichen_274-120_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-120_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png",
             "cat": 2,
-            "frequency": 288
+            "frequency": 287
         }
     },
     {
@@ -640,7 +640,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/242_1022-10.png",
             "cat": 1,
-            "frequency": 278
+            "frequency": 281
         }
     },
     {
@@ -658,7 +658,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/242.png",
             "cat": 1,
-            "frequency": 270
+            "frequency": 271
         }
     },
     {
@@ -684,7 +684,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1022-10.png",
             "cat": 2,
-            "frequency": 255
+            "frequency": 259
         }
     },
     {
@@ -704,7 +704,7 @@
             ],
             "img": "https://osmtools.de/traffic_signs/img/259.png",
             "cat": 2,
-            "frequency": 254
+            "frequency": 258
         }
     },
     {
@@ -727,7 +727,22 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1020-12.png",
             "cat": 2,
-            "frequency": 250
+            "frequency": 251
+        }
+    },
+    {
+        "253_1026-35": {
+            "tags": [
+                {
+                    "hgv": "delivery"
+                },
+                {
+                    "traffic_sign": "DE:253,1026-35"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/253_1026-35.png",
+            "cat": 2,
+            "frequency": 208
         }
     },
     {
@@ -749,21 +764,6 @@
         }
     },
     {
-        "253_1026-35": {
-            "tags": [
-                {
-                    "hgv": "delivery"
-                },
-                {
-                    "traffic_sign": "DE:253,1026-35"
-                }
-            ],
-            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/253_1026-35.png",
-            "cat": 2,
-            "frequency": 193
-        }
-    },
-    {
         "257-51": {
             "tags": [
                 {
@@ -775,7 +775,7 @@
             ],
             "img": "https://osmtools.de/traffic_signs/img/257-51.png",
             "cat": 2,
-            "frequency": 191
+            "frequency": 193
         }
     },
     {
@@ -793,7 +793,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Zeichen_274-10_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-10_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png",
             "cat": 2,
-            "frequency": 188
+            "frequency": 190
         }
     },
     {
@@ -826,7 +826,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Zeichen_136-10_-_Kinder%2C_Aufstellung_rechts%2C_StVO_1992.svg/120px-Zeichen_136-10_-_Kinder%2C_Aufstellung_rechts%2C_StVO_1992.svg.png",
             "cat": 3,
-            "frequency": 140
+            "frequency": 145
         }
     },
     {
@@ -841,7 +841,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Zeichen_142-20_-_Wildwechsel%2C_Aufstellung_links%2C_StVO_1992.svg/120px-Zeichen_142-20_-_Wildwechsel%2C_Aufstellung_links%2C_StVO_1992.svg.png",
             "cat": 3,
-            "frequency": 132
+            "frequency": 133
         }
     },
     {
@@ -870,7 +870,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/238.png",
             "cat": 1,
-            "frequency": 108
+            "frequency": 113
         }
     },
     {
@@ -894,7 +894,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240_1020-30.png",
             "cat": 1,
-            "frequency": 107
+            "frequency": 109
         }
     },
     {
@@ -935,7 +935,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-32.png",
             "cat": 2,
-            "frequency": 78
+            "frequency": 85
         }
     },
     {
@@ -1019,29 +1019,6 @@
         }
     },
     {
-        "250_1026-35": {
-            "tags": [
-                {
-                    "vehicle": "delivery"
-                },
-                {
-                    "traffic_sign": "DE:250,1026-35"
-                }
-            ],
-            "remove": [
-                {
-                    "access": "delivery"
-                },
-                {
-                    "access": "no"
-                }
-            ],
-            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-35.png",
-            "cat": 2,
-            "frequency": 49
-        }
-    },
-    {
         "250_1026-39": {
             "tags": [
                 {
@@ -1082,7 +1059,30 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-39.png",
             "cat": 2,
-            "frequency": 47
+            "frequency": 54
+        }
+    },
+    {
+        "250_1026-35": {
+            "tags": [
+                {
+                    "vehicle": "delivery"
+                },
+                {
+                    "traffic_sign": "DE:250,1026-35"
+                }
+            ],
+            "remove": [
+                {
+                    "access": "delivery"
+                },
+                {
+                    "access": "no"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-35.png",
+            "cat": 2,
+            "frequency": 52
         }
     },
     {
@@ -1149,7 +1149,7 @@
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/1012-32.png",
             "wrong": true,
             "cat": 4,
-            "frequency": 16
+            "frequency": 19
         }
     },
     {
@@ -1313,7 +1313,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Zeichen_124_-_Stau%2C_StVO_1992.svg/180px-Zeichen_124_-_Stau%2C_StVO_1992.svg.png",
             "cat": 3,
-            "frequency": 7
+            "frequency": 8
         }
     },
     {
@@ -1374,6 +1374,28 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-32_1026-30.png",
             "cat": 2,
+            "frequency": 7
+        }
+    },
+    {
+        "239_1012-32": {
+            "tags": [
+                {
+                    "highway": "footway"
+                },
+                {
+                    "foot": "designated"
+                },
+                {
+                    "bicycle": "dismount"
+                },
+                {
+                    "traffic_sign": "DE:239;1012-32"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/1012-32.png",
+            "wrong": true,
+            "cat": 1,
             "frequency": 7
         }
     },
@@ -1481,28 +1503,6 @@
         }
     },
     {
-        "239_1012-32": {
-            "tags": [
-                {
-                    "highway": "footway"
-                },
-                {
-                    "foot": "designated"
-                },
-                {
-                    "bicycle": "dismount"
-                },
-                {
-                    "traffic_sign": "DE:239;1012-32"
-                }
-            ],
-            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/1012-32.png",
-            "wrong": true,
-            "cat": 1,
-            "frequency": 5
-        }
-    },
-    {
         "261_1014-53": {
             "tags": [
                 {
@@ -1529,6 +1529,21 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/254_1012-32.png",
             "wrong": true,
+            "cat": 2,
+            "frequency": 2
+        }
+    },
+    {
+        "253_1026-39": {
+            "tags": [
+                {
+                    "hgv": "private;delivery"
+                },
+                {
+                    "traffic_sign": "DE:253,1026-39"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/253_1026-39.png",
             "cat": 2,
             "frequency": 2
         }
@@ -1808,21 +1823,6 @@
         }
     },
     {
-        "253_1026-39": {
-            "tags": [
-                {
-                    "hgv": "private;delivery"
-                },
-                {
-                    "traffic_sign": "DE:253,1026-39"
-                }
-            ],
-            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/253_1026-39.png",
-            "cat": 2,
-            "frequency": 0
-        }
-    },
-    {
         "253_1024-14": {
             "tags": [
                 {
@@ -1885,6 +1885,21 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/2025.png",
             "cat": 4,
+            "frequency": 0
+        }
+    },
+    {
+        "250_1026-37_1026-39": {
+            "tags": [
+                {
+                    "vehicle": "forestry;private;delivery"
+                },
+                {
+                    "traffic_sign": "DE:250,1026-37,1026-39"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1026-37_1026-39.png",
+            "cat": 2,
             "frequency": 0
         }
     }

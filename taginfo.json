@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20220201T001147Z",
+    "data_updated": "20220219T194436Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -281,7 +281,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:253"
+            "description": "Added/updated if implied by signage DE:253, DE:253,1024-14"
         },
         {
             "key": "traffic_sign",
@@ -564,22 +564,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "maxspeed",
-            "value": "40",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:274[40]"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:274[40]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "hgv",
             "value": "delivery",
             "object_types": [
@@ -590,6 +574,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:253,1026-35",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "maxspeed",
+            "value": "40",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:274[40]"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:274[40]",
             "object_types": [
                 "way"
             ],
@@ -729,7 +729,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:250,1026-32, DE:250,1024-14, DE:260,1026-32"
+            "description": "Added/updated if implied by signage DE:250,1026-32, DE:250,1024-14, DE:260,1026-32, DE:253,1024-14"
         },
         {
             "key": "traffic_sign",
@@ -761,7 +761,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:250,1024-14"
+            "description": "Added/updated if implied by signage DE:250,1024-14, DE:253,1024-14"
         },
         {
             "key": "traffic_sign",
@@ -789,22 +789,6 @@
         },
         {
             "key": "vehicle",
-            "value": "delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:250,1026-35, DE:250,1026-35,1022-10"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:250,1026-35",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "vehicle",
             "value": "private;delivery",
             "object_types": [
                 "way"
@@ -814,6 +798,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:250,1026-39",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "vehicle",
+            "value": "delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:250,1026-35, DE:250,1026-35,1022-10"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:250,1026-35",
             "object_types": [
                 "way"
             ],
@@ -988,6 +988,14 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "traffic_sign",
+            "value": "DE:239;1012-32",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "vehicle",
             "value": "destination;delivery",
             "object_types": [
@@ -1028,14 +1036,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "traffic_sign",
-            "value": "DE:239;1012-32",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "hazmat:E",
             "value": "no",
             "object_types": [
@@ -1060,12 +1060,28 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "hgv",
+            "value": "private;delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:253,1026-39"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:253,1026-39",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "winter_service",
             "value": "no",
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:240,2001"
+            "description": "Added/updated if implied by signage DE:240,2001, DE:2001"
         },
         {
             "key": "traffic_sign",
@@ -1233,7 +1249,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:240,2025"
+            "description": "Added/updated if implied by signage DE:240,2025, DE:2025"
         },
         {
             "key": "traffic_sign",
@@ -1244,16 +1260,32 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "hgv",
-            "value": "private;delivery",
+            "key": "traffic_sign",
+            "value": "DE:253,1024-14",
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:253,1026-39"
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "hgv",
+            "value": "destination",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:253,1024-14"
         },
         {
             "key": "traffic_sign",
-            "value": "DE:253,1026-39",
+            "value": "DE:2001",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:2025",
             "object_types": [
                 "way"
             ],
@@ -1461,19 +1493,19 @@
         },
         {
             "key": "access",
-            "value": "delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Removed as common tagging mistake for signage DE:250,1026-35, DE:250,1026-39, DE:260,1026-39, DE:250,1020-30,1026-35, DE:250,1026-35,1022-10"
-        },
-        {
-            "key": "access",
             "value": "private;delivery",
             "object_types": [
                 "way"
             ],
             "description": "Removed as common tagging mistake for signage DE:250,1026-39, DE:260,1026-39"
+        },
+        {
+            "key": "access",
+            "value": "delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Removed as common tagging mistake for signage DE:250,1026-39, DE:250,1026-35, DE:260,1026-39, DE:250,1020-30,1026-35, DE:250,1026-35,1022-10"
         },
         {
             "key": "motor_vehicle",
