@@ -1926,5 +1926,26 @@
             "cat": 1,
             "frequency": 0
         }
+    },
+    {
+        "239_1022-10_1026-35": {
+            "tags": [
+                {
+                    "access": "delivery"
+                },
+                {
+                    "bicycle": "yes"
+                },
+                {
+                    "foot": "designated"
+                },
+                {
+                    "traffic_sign": "DE:239,1022-10,1026-35"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1022-10_1026-35.png",
+            "cat": 1,
+            "frequency": 0
+        }
     }
 ]
