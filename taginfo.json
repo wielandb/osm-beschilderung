@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20220312T212152Z",
+    "data_updated": "20220314T174220Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -177,7 +177,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:260, DE:260,1026-32, DE:260;325"
+            "description": "Added/updated if implied by signage DE:260, DE:260,1026-33, DE:260,1026-32, DE:260;325"
         },
         {
             "key": "traffic_sign",
@@ -420,6 +420,14 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "traffic_sign",
+            "value": "DE:1022-10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "maxspeed",
             "value": "100",
             "object_types": [
@@ -430,14 +438,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[100]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:1022-10",
             "object_types": [
                 "way"
             ],
@@ -597,22 +597,6 @@
         },
         {
             "key": "maxspeed",
-            "value": "10",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:274[10]"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:274[10]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "maxspeed",
             "value": "40",
             "object_types": [
                 "way"
@@ -622,6 +606,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[40]",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "maxspeed",
+            "value": "10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:274[10]"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:274[10]",
             "object_types": [
                 "way"
             ],
@@ -996,6 +996,22 @@
             "description": "Added/updated if implied by signage DE:253,1024-14"
         },
         {
+            "key": "emergency",
+            "value": "yes",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:260,1026-33"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:260,1026-33",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "motor_vehicle",
             "value": "private;delivery",
             "object_types": [
@@ -1337,7 +1353,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:250, DE:260,1020-30, DE:250,1020-30, DE:250,1026-36, DE:250,1026-38, and 14 others"
+            "description": "Removed as common tagging mistake for signage DE:250, DE:260,1020-30, DE:250,1020-30, DE:250,1026-36, DE:250,1026-38, and 15 others"
         },
         {
             "key": "foot",
@@ -1353,7 +1369,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:260,1020-30, DE:250,1020-30, DE:260,1026-37, DE:250,1020-12, DE:250,1026-39, and 3 others"
+            "description": "Removed as common tagging mistake for signage DE:260,1020-30, DE:250,1020-30, DE:260,1026-37, DE:250,1020-12, DE:250,1026-39, and 4 others"
         },
         {
             "key": "vehicle",
@@ -1361,7 +1377,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:260,1020-30, DE:260, DE:260,1026-38, DE:260,1026-37, DE:260,1020-30,1026-35, and 1 others"
+            "description": "Removed as common tagging mistake for signage DE:260,1020-30, DE:260, DE:260,1026-38, DE:260,1026-37, DE:260,1026-33, and 2 others"
         },
         {
             "key": "vehicle",
@@ -1369,7 +1385,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:260,1020-30, DE:260,1026-37, DE:260,1020-30,1026-35, DE:260,1020-31"
+            "description": "Removed as common tagging mistake for signage DE:260,1020-30, DE:260,1026-37, DE:260,1026-33, DE:260,1020-30,1026-35, DE:260,1020-31"
         },
         {
             "key": "foot",
@@ -1425,7 +1441,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:250,1020-30, DE:260,1026-37, DE:260,1020-30,1026-35, DE:260,1020-31"
+            "description": "Removed as common tagging mistake for signage DE:250,1020-30, DE:260,1026-37, DE:260,1026-33, DE:260,1020-30,1026-35, DE:260,1020-31"
         },
         {
             "key": "access",
@@ -1449,7 +1465,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:260,1026-37, DE:260,1020-31"
+            "description": "Removed as common tagging mistake for signage DE:260,1026-37, DE:260,1026-33, DE:260,1020-31"
         },
         {
             "key": "access",
@@ -1570,6 +1586,14 @@
                 "way"
             ],
             "description": "Removed as common tagging mistake for signage DE:250,1026-32,1026-30,1012-32, DE:250,1026-32,1026-30"
+        },
+        {
+            "key": "vehicle",
+            "value": "emergency",
+            "object_types": [
+                "way"
+            ],
+            "description": "Removed as common tagging mistake for signage DE:260,1026-33"
         },
         {
             "key": "access",
