@@ -1926,5 +1926,46 @@
             "cat": 4,
             "frequency": 0
         }
+    },
+	{
+        "260_1026-33": {
+            "tags": [
+                {
+                    "motor_vehicle": "no"
+                },
+				{
+                    "emergency": "yes"
+                },
+                {
+                    "traffic_sign": "DE:260,1026-33"
+                }
+            ],
+            "remove": [
+                {
+                    "access": "no"
+                },
+                {
+                    "access": "destination"
+                },
+                {
+                    "access": "permissive"
+                },
+                {
+                    "vehicle": "permissive"
+                },
+                {
+                    "vehicle": "no"
+                },
+                {
+                    "vehicle": "destination"
+                },
+				{
+					"vehicle": "emergency"
+				}
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-33.png",
+            "cat": 2,
+            "frequency": 1
+        }
     }
 ]
