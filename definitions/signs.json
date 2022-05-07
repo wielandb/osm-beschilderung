@@ -1973,5 +1973,23 @@
             "cat": 4,
             "frequency": 0
         }
+    },
+    {
+        "325_253": {
+            "tags": [
+                {
+                    "highway": "living_street"
+                },
+				{
+					"hgv":"no"
+				},
+                {
+                    "traffic_sign": "DE:325;253"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/325_253.png",
+            "cat": 1,
+            "frequency": 0
+        }
     }
 ]
