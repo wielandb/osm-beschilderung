@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20220405T130835Z",
+    "data_updated": "20220508T002748Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -161,7 +161,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:325, DE:260;325"
+            "description": "Added/updated if implied by signage DE:325, DE:325;253, DE:260;325"
         },
         {
             "key": "traffic_sign",
@@ -204,6 +204,22 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "highway",
+            "value": "cycleway",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:237, DE:237,1020-13"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:237",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "maxspeed",
             "value": "70",
             "object_types": [
@@ -222,22 +238,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[70]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "highway",
-            "value": "cycleway",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:237, DE:237,1020-13"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:237",
             "object_types": [
                 "way"
             ],
@@ -292,6 +292,22 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "hgv",
+            "value": "no",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:253, DE:325;253, DE:253,1024-14"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:253",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "maxspeed",
             "value": "50",
             "object_types": [
@@ -302,22 +318,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[50]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "hgv",
-            "value": "no",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:253, DE:253,1024-14"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:253",
             "object_types": [
                 "way"
             ],
@@ -476,6 +476,22 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "highway",
+            "value": "pedestrian",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:242,1022-10, DE:242, DE:242,1022-10,1026-35,1026-30"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:242,1022-10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "hazmat:water",
             "value": "permissive",
             "object_types": [
@@ -502,22 +518,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[120]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "highway",
-            "value": "pedestrian",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:242,1022-10, DE:242, DE:242,1022-10,1026-35,1026-30"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:242,1022-10",
             "object_types": [
                 "way"
             ],
@@ -564,22 +564,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "hgv",
-            "value": "delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:253,1026-35"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:253,1026-35",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "horse",
             "value": "no",
             "object_types": [
@@ -590,6 +574,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:257-51",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "hgv",
+            "value": "delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:253,1026-35"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:253,1026-35",
             "object_types": [
                 "way"
             ],
@@ -628,6 +628,22 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "hazard",
+            "value": "animal_crossing",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:142-10"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:142-10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "maxspeed",
             "value": "20",
             "object_types": [
@@ -654,22 +670,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:136-10",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "hazard",
-            "value": "animal_crossing",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:142-10"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:142-10",
             "object_types": [
                 "way"
             ],
@@ -756,22 +756,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "oneway",
-            "value": "no",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:241,1000-31, DE:240,1026-39"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:241,1000-31",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "vehicle",
             "value": "delivery",
             "object_types": [
@@ -782,6 +766,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:250,1026-35",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "oneway",
+            "value": "no",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:241,1000-31, DE:240,1026-39"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:241,1000-31",
             "object_types": [
                 "way"
             ],
@@ -901,6 +901,14 @@
         },
         {
             "key": "traffic_sign",
+            "value": "DE:325;253",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "traffic_sign",
             "value": "DE:239;254",
             "object_types": [
                 "way"
@@ -934,6 +942,14 @@
         {
             "key": "traffic_sign",
             "value": "DE:103-10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:239;1012-32",
             "object_types": [
                 "way"
             ],
@@ -1020,30 +1036,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "motor_vehicle",
-            "value": "private;delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:260,1026-39"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:260,1026-39",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:239;1012-32",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "vehicle",
             "value": "destination;delivery",
             "object_types": [
@@ -1054,6 +1046,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:250,1020-30,1026-35",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "motor_vehicle",
+            "value": "private;delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:260,1026-39"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:260,1026-39",
             "object_types": [
                 "way"
             ],
@@ -1537,7 +1545,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:250,1026-35, DE:250,1026-39, DE:260,1026-39, DE:250,1020-30,1026-35, DE:250,1026-35,1022-10"
+            "description": "Removed as common tagging mistake for signage DE:250,1026-35, DE:250,1026-39, DE:250,1020-30,1026-35, DE:260,1026-39, DE:250,1026-35,1022-10"
         },
         {
             "key": "access",
@@ -1597,11 +1605,19 @@
         },
         {
             "key": "access",
+            "value": "destination;delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Removed as common tagging mistake for signage DE:250,1020-30,1026-35, DE:260,1020-30,1026-35"
+        },
+        {
+            "key": "access",
             "value": "private",
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:260,1026-39, DE:250,1020-30,1026-35"
+            "description": "Removed as common tagging mistake for signage DE:250,1020-30,1026-35, DE:260,1026-39"
         },
         {
             "key": "vehicle",
@@ -1618,14 +1634,6 @@
                 "way"
             ],
             "description": "Removed as common tagging mistake for signage DE:260,1026-39"
-        },
-        {
-            "key": "access",
-            "value": "destination;delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Removed as common tagging mistake for signage DE:250,1020-30,1026-35, DE:260,1020-30,1026-35"
         },
         {
             "key": "vehicle",
