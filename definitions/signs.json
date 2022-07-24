@@ -1991,5 +1991,29 @@
             "cat": 4,
             "frequency": 0
         }
+    },
+    {
+        "239_1020-12": {
+            "tags": [
+                {
+                    "highway": "footway"
+                },
+                {
+                    "access": "destination"
+                },
+                {
+                    "foot": "designated"
+                },
+                {
+                    "bicycle": "yes"
+                },
+                {
+                    "traffic_sign": "DE:239,1020-12"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1020-12.png",
+            "cat": 1,
+            "frequency": 0
+        }
     }
 ]
