@@ -20,7 +20,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240.png",
             "cat": 1,
-            "frequency": 36815
+            "frequency": 36816
         }
     },
     {
@@ -106,7 +106,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-36.png",
             "cat": 2,
-            "frequency": 4596
+            "frequency": 4597
         }
     },
     {
@@ -135,7 +135,7 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250.png",
             "cat": 2,
-            "frequency": 3895
+            "frequency": 3896
         }
     },
     {
@@ -519,7 +519,7 @@
             ],
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Zeichen_274-100_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg/120px-Zeichen_274-100_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg.png",
             "cat": 2,
-            "frequency": 536
+            "frequency": 477
         }
     },
     {
@@ -1643,6 +1643,30 @@
         }
     },
     {
+        "239_1020-12": {
+            "tags": [
+                {
+                    "highway": "footway"
+                },
+                {
+                    "access": "destination"
+                },
+                {
+                    "foot": "designated"
+                },
+                {
+                    "bicycle": "yes"
+                },
+                {
+                    "traffic_sign": "DE:239,1020-12"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1020-12.png",
+            "cat": 1,
+            "frequency": 3
+        }
+    },
+    {
         "254_1012-32": {
             "tags": [
                 {
@@ -1989,30 +2013,6 @@
             ],
             "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/2025.png",
             "cat": 4,
-            "frequency": 0
-        }
-    },
-    {
-        "239_1020-12": {
-            "tags": [
-                {
-                    "highway": "footway"
-                },
-                {
-                    "access": "destination"
-                },
-                {
-                    "foot": "designated"
-                },
-                {
-                    "bicycle": "yes"
-                },
-                {
-                    "traffic_sign": "DE:239,1020-12"
-                }
-            ],
-            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1020-12.png",
-            "cat": 1,
             "frequency": 0
         }
     }
