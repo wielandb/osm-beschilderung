@@ -17,6 +17,16 @@ def getFreq(ix):
             return int(alt_liste[vzix][traffic_sign_key]["frequency"])
     return 99999999
 
+
+def getFreqOnline(ts):
+    ans = requests.get("https://taginfo.openstreetmap.org/api/4/tag/stats?key=traffic_sign&value=" + str(ts))
+    if ans.status_code == 200:
+        J = ans.json()
+        return J["data"][0]["count"]
+    else:
+        return 0
+
+
 ### Schritt 0: Die Liste aus der Datei laden
 
 with open("../definitions/signs.json", "r") as f:
@@ -31,13 +41,8 @@ for vzix in range(len(alt_liste)):
     for t in traffic_sign_tags:
         if "traffic_sign" in t.keys():
             traffic_sign = t["traffic_sign"]
-    url = opq_1 + urllib.parse.quote_plus(traffic_sign) + opq_2
-    ans = requests.get(url)
-    if ans.status_code == 200:
-        ansj = ans.json()
-        freq = ansj["elements"][0]["tags"]["total"]
-        print(traffic_sign_key + " - " + freq)
-    sleep(20)
+    freq = getFreqOnline(traffic_sign)
+    print(traffic_sign_key + " - " + str(freq))
     alt_liste[vzix][traffic_sign_key]["frequency"] = int(freq)
 
 ### Schritt 2: Die Liste sortieren und abspeichern
