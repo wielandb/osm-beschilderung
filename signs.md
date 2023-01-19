@@ -3,7 +3,7 @@
 | ![](https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/240.png) | `highway=path`<br>`bicycle=designated`<br>`foot=designated`<br>`segregated=no`<br>`traffic_sign=DE:240`<br> |  | Gebotszeichen | 41545 |
 | ![](https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239.png) | `highway=footway`<br>`foot=designated`<br>`traffic_sign=DE:239`<br> | `bicycle=yes`<br>`bicycle=designated`<br> | Gebotszeichen | 9781 |
 | ![](https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_254.png) | `highway=footway`<br>`foot=designated`<br>`bicycle=no`<br>`traffic_sign=DE:239;254`<br> |  | Gebotszeichen | 9781 |
-| ![](https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/1012-32.png) | `highway=footway`<br>`foot=designated`<br>`bicycle=dismount`<br>`traffic_sign=DE:239;1012-32`<br> |  | Gebotszeichen | 9781 |
+| ![](https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1012-32.png) | `highway=footway`<br>`foot=designated`<br>`bicycle=dismount`<br>`traffic_sign=DE:239;1012-32`<br> |  | Gebotszeichen | 9781 |
 | ![](https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1022-10.png) | `bicycle=yes`<br>`highway=footway`<br>`foot=designated`<br>`traffic_sign=DE:239,1022-10`<br> |  | Gebotszeichen | 8986 |
 | ![](https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/241.png) | `highway=path`<br>`bicycle=designated`<br>`foot=designated`<br>`segregated=yes`<br>`traffic_sign=DE:241`<br> |  | Gebotszeichen | 6567 |
 | ![](https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/260_1026-36.png) | `motor_vehicle=agricultural`<br>`traffic_sign=DE:260,1026-36`<br> |  | Verbotszeichen | 4771 |
