@@ -87,7 +87,7 @@
                     "traffic_sign": "DE:239;1012-32"
                 }
             ],
-            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/1012-32.png",
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/239_1012-32.png",
             "wrong": true,
             "cat": 1,
             "frequency": 9781
