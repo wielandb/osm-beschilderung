@@ -2,6 +2,7 @@ import json
 import urllib.parse
 from time import sleep
 import requests
+import os
 
 ## Dieses Skript sortiert die Einträge in signs.json nach der Häufigkeit ihrer `traffic_sign`-Werte in der OSM-Datenbank
 
@@ -27,7 +28,15 @@ def getFreqOnline(ts):
         return 0
 
 
+# A function that checks if the current working directory is the root of the project or the scripts folder
+def check_cwd():
+    if os.getcwd().split("/")[-1] == "scripts":
+        os.chdir("..")        
+
+
 ### Schritt 0: Die Liste aus der Datei laden
+
+check_cwd()
 
 with open("../definitions/signs.json", "r") as f:
     alt_liste = json.loads(f.read())
@@ -49,5 +58,5 @@ for vzix in range(len(alt_liste)):
 
 neu_liste = sorted(alt_liste, reverse=True, key=lambda x: getFreq(x))
 
-with open("../definitions/signs.json", "w") as f:
+with open("definitions/signs.json", "w") as f:
     f.write(json.dumps(neu_liste, indent=4))
