@@ -38,7 +38,7 @@ def check_cwd():
 
 check_cwd()
 
-with open("../definitions/signs.json", "r") as f:
+with open("definitions/signs.json", "r") as f:
     alt_liste = json.loads(f.read())
 
 ### Schritt 1: Für jede Verkehrszeichenkombination die Häufigkeit ermitteln
