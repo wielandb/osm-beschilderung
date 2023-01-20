@@ -1,9 +1,9 @@
 import json
 
-with open("../definitions/signs.json", "r") as f:
+with open("definitions/signs.json", "r") as f:
     liste = json.loads(f.read())
 
-with open("../README.md", "r") as f:
+with open("README.md", "r") as f:
     readme = f.read()
 
 MD = "| Bild | Hinzugefügte Tags | Entfernte Tags | Kategorie | Häufigkeit in der OSM-Datenbank | " + "\n" + "|:----:|:-----------------:|:--------------:|:---------:|:-------------------------------:| " + "\n"
@@ -21,5 +21,5 @@ for item in liste:
     catstr = cats[itval["cat"]]
     MD += "| ![](" + itval["img"] + ") | " + addtagstr + " | " + remtagstr + " | " + catstr + " | " + str(itval["frequency"]) + " |" + "\n" 
 
-with open("../signs.md", "w") as f:
+with open("signs.md", "w") as f:
     f.write(MD)

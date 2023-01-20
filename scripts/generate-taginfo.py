@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 # Dieses Skript generiert die taginfo.json für Taginfo
 
-with open("../definitions/signs.json", "r") as f:
+with open("definitions/signs.json", "r") as f:
     liste = json.loads(f.read())
 
 TAGS = []
@@ -87,5 +87,5 @@ for item in liste:
 
 TAGINFO =    {"data_format": 1, "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json", "data_updated": datetime.strftime(datetime.now(), '%Y%m%dT%H%M%SZ'),"project": {"name": "osm-beschilderung","description": "An app to quickly add german traffic signs to OSM","project_url": "https://github.com/wielandb/osm-beschilderung", "doc_url": "https://github.com/wielandb/osm-beschilderung/blob/main/signs.md","icon_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/appicon.png","contact_name": "Wieland Breitfeld", "contact_email": "mail@wielandbreitfeld.de" },"tags": TAGS}
 
-with open("../taginfo.json", "w") as f:
+with open("taginfo.json", "w") as f:
     f.write(json.dumps(TAGINFO, indent=4))
