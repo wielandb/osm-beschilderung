@@ -14,11 +14,11 @@ jobs:
             with:
               python-version: '3.9.16'
           - name: execute sorting script
-            run: python sort-values.py
+            run: python scripts/sort-values.py
           - name: execute readme script
-            run: python generate-readme.py
+            run: python scripts/generate-readme.py
           - name: execute sorting script
-            run: python generate-taginfo.py
+            run: python scripts/generate-taginfo.py
           - name: commit files
             run: |
               git config --local user.email "action@github.com"
