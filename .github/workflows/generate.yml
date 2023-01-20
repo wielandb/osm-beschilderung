@@ -1,0 +1,32 @@
+name: generate-taginfo
+on:
+    push:
+    schedule:
+        - cron: '*/15 * * * *'
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+          - name: checkout repo content
+            uses: actions/checkout@v2
+          - name: setup python
+            uses: actions/setup-python@v2
+            with:
+              python-version: '3.9.16'
+          - name: execute sorting script
+            run: python sort-values.py
+          - name: execute readme script
+            run: python generate-readme.py
+          - name: execute sorting script
+            run: python generate-taginfo.py
+          - name: commit files
+            run: |
+              git config --local user.email "action@github.com"
+              git config --local user.name "GitHub Action"
+              git add -A
+              git commit -m "execute update scripts" -a
+          - name: push changes
+            uses: ad-m/github-push-action@v0.6.0
+            with:
+              github_token: ${{ secrets.GITHUB_TOKEN }}
+              branch: main
