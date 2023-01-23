@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20230120T223550Z",
+    "data_updated": "20230123T070532Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -796,22 +796,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "vehicle",
-            "value": "delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:250,1026-35, DE:250,1026-35,1022-10"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:250,1026-35",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "tourist_bus",
             "value": "yes",
             "object_types": [
@@ -822,6 +806,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:250,1024-14",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "vehicle",
+            "value": "delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:250,1026-35, DE:250,1026-35,1022-10"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:250,1026-35",
             "object_types": [
                 "way"
             ],
@@ -1516,14 +1516,6 @@
             "description": "Removed as common tagging mistake for signage DE:250,1022-10"
         },
         {
-            "key": "access",
-            "value": "delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Removed as common tagging mistake for signage DE:250,1026-35, DE:250,1026-39, DE:260,1026-39, DE:250,1020-30,1026-35, DE:250,1026-35,1022-10"
-        },
-        {
             "key": "psv",
             "value": "yes",
             "object_types": [
@@ -1554,6 +1546,14 @@
                 "way"
             ],
             "description": "Removed as common tagging mistake for signage DE:250,1024-14"
+        },
+        {
+            "key": "access",
+            "value": "delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Removed as common tagging mistake for signage DE:250,1026-35, DE:250,1026-39, DE:260,1026-39, DE:250,1020-30,1026-35, DE:250,1026-35,1022-10"
         },
         {
             "key": "access",
