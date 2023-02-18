@@ -2015,5 +2015,25 @@
             "cat": 4,
             "frequency": 0
         }
-    }
+    },
+	{
+		"239_1022-10_1000-31": {
+			"tags": [
+				{
+					"foot": "designated"
+				},
+				{
+					"bicycle": "yes"
+				},
+				{
+					"oneway:bicycle": "no"
+				},
+				{
+					"traffic_sign": "DE:239,1022-10,1000-31"
+				}
+			],
+			"img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/2025.png",
+			"cat": 1,
+			"frequency": 0
+		}
 ]
