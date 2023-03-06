@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20230227T070652Z",
+    "data_updated": "20230306T070632Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -484,6 +484,14 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "traffic_sign",
+            "value": "DE:1022-10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "maxspeed",
             "value": "60",
             "object_types": [
@@ -494,14 +502,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[60]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:1022-10",
             "object_types": [
                 "way"
             ],
@@ -668,6 +668,22 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "hazard",
+            "value": "children",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:136-10"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:136-10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "maxspeed",
             "value": "40",
             "object_types": [
@@ -694,22 +710,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[20]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "hazard",
-            "value": "children",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:136-10"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:136-10",
             "object_types": [
                 "way"
             ],
@@ -812,22 +812,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "maxspeed",
-            "value": "130",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:274[130]"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:274[130]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "vehicle",
             "value": "delivery",
             "object_types": [
@@ -838,6 +822,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:250,1026-35",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "maxspeed",
+            "value": "130",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:274[130]"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:274[130]",
             "object_types": [
                 "way"
             ],
