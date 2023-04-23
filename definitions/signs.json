@@ -2036,5 +2036,42 @@
             "cat": 4,
             "frequency": 0
         }
+    },
+    {
+        "250_1048-15": {
+            "tags": [
+                {
+                    "hgv_articulated": "no"
+                },
+                {
+                    "hgv:trailer": "no"
+                },
+                {
+                    "traffic_sign": "DE:250,1048-15"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1048-15.png",
+            "cat": 2,
+            "frequency": 0
+        }
+    },
+    {
+        "250_1048-15_1026-37": {
+            "tags": [
+                {
+                    "hgv_articulated": "forestry"
+                },
+                {
+                    "hgv:trailer": "forestry"
+                },
+                {
+                    "traffic_sign": "DE:250,1048-15,1026-37"
+                }
+            ],
+            "img": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/images/250_1048-15_1026-37.png",
+            "cat": 2,
+            "frequency": 0
+        }
     }
+
 ]
