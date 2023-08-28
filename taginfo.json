@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20230821T070400Z",
+    "data_updated": "20230828T070414Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -604,14 +604,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "traffic_sign",
-            "value": "DE:242",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "hgv",
             "value": "delivery",
             "object_types": [
@@ -622,6 +614,14 @@
         {
             "key": "traffic_sign",
             "value": "DE:253,1026-35",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:242",
             "object_types": [
                 "way"
             ],
@@ -764,16 +764,16 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "highway",
-            "value": "bridleway",
+            "key": "access",
+            "value": "destination",
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:238"
+            "description": "Added/updated if implied by signage DE:240,1020-30, DE:239,1020-30, DE:237,1020-30, DE:239,1020-12"
         },
         {
             "key": "traffic_sign",
-            "value": "DE:238",
+            "value": "DE:240,1020-30",
             "object_types": [
                 "way"
             ],
@@ -796,16 +796,16 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "access",
-            "value": "destination",
+            "key": "highway",
+            "value": "bridleway",
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:240,1020-30, DE:239,1020-30, DE:237,1020-30, DE:239,1020-12"
+            "description": "Added/updated if implied by signage DE:238"
         },
         {
             "key": "traffic_sign",
-            "value": "DE:240,1020-30",
+            "value": "DE:238",
             "object_types": [
                 "way"
             ],
