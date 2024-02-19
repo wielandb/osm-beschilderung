@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20240212T070432Z",
+    "data_updated": "20240219T070815Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -188,22 +188,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "motor_vehicle",
-            "value": "destination",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:260,1020-30, DE:260,1020-31"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:260,1020-30",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "highway",
             "value": "cycleway",
             "object_types": [
@@ -214,6 +198,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:237",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "motor_vehicle",
+            "value": "destination",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:260,1020-30, DE:260,1020-31"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:260,1020-30",
             "object_types": [
                 "way"
             ],
@@ -1444,6 +1444,22 @@
             "description": "Removed as common tagging mistake for signage DE:250, DE:250;257-51"
         },
         {
+            "key": "foot",
+            "value": "yes",
+            "object_types": [
+                "way"
+            ],
+            "description": "Removed as common tagging mistake for signage DE:237, DE:238, DE:237,1020-13, DE:237,1020-30"
+        },
+        {
+            "key": "foot",
+            "value": "designated",
+            "object_types": [
+                "way"
+            ],
+            "description": "Removed as common tagging mistake for signage DE:237, DE:238, DE:237,1020-13, DE:237,1020-30"
+        },
+        {
             "key": "access",
             "value": "destination",
             "object_types": [
@@ -1466,22 +1482,6 @@
                 "way"
             ],
             "description": "Removed as common tagging mistake for signage DE:260,1020-30, DE:260,1026-37, DE:260,1026-33, DE:260,1020-30,1026-35, DE:260,1020-31"
-        },
-        {
-            "key": "foot",
-            "value": "yes",
-            "object_types": [
-                "way"
-            ],
-            "description": "Removed as common tagging mistake for signage DE:237, DE:238, DE:237,1020-13, DE:237,1020-30"
-        },
-        {
-            "key": "foot",
-            "value": "designated",
-            "object_types": [
-                "way"
-            ],
-            "description": "Removed as common tagging mistake for signage DE:237, DE:238, DE:237,1020-13, DE:237,1020-30"
         },
         {
             "key": "vehicle",
