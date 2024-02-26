@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20240219T070815Z",
+    "data_updated": "20240226T070445Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -764,22 +764,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "bus",
-            "value": "yes",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:250,1026-32, DE:250,1024-14, DE:260,1026-32, DE:253,1024-14"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:250,1026-32",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "access",
             "value": "destination",
             "object_types": [
@@ -790,6 +774,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:240,1020-30",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "bus",
+            "value": "yes",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:250,1026-32, DE:250,1024-14, DE:260,1026-32, DE:253,1024-14"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:250,1026-32",
             "object_types": [
                 "way"
             ],
@@ -996,6 +996,22 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "inline_skates",
+            "value": "yes",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:237,1020-13"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:237,1020-13",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "traffic_sign",
             "value": "DE:240,1026-39",
             "object_types": [
@@ -1020,22 +1036,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "vehicle",
-            "value": "destination;delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:250,1020-30,1026-35"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:250,1020-30,1026-35",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "motor_vehicle",
             "value": "private;delivery",
             "object_types": [
@@ -1052,6 +1052,22 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "vehicle",
+            "value": "destination;delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:250,1020-30,1026-35"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:250,1020-30,1026-35",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "psv",
             "value": "yes",
             "object_types": [
@@ -1062,22 +1078,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:250,1026-32,1026-30,1012-32",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "inline_skates",
-            "value": "yes",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:237,1020-13"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:237,1020-13",
             "object_types": [
                 "way"
             ],
@@ -1617,7 +1617,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:250,1026-35, DE:250,1026-39, DE:250,1020-30,1026-35, DE:260,1026-39, DE:250,1026-35,1022-10"
+            "description": "Removed as common tagging mistake for signage DE:250,1026-35, DE:250,1026-39, DE:260,1026-39, DE:250,1020-30,1026-35, DE:250,1026-35,1022-10"
         },
         {
             "key": "access",
@@ -1669,19 +1669,11 @@
         },
         {
             "key": "access",
-            "value": "destination;delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Removed as common tagging mistake for signage DE:250,1020-30,1026-35, DE:260,1020-30,1026-35"
-        },
-        {
-            "key": "access",
             "value": "private",
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:250,1020-30,1026-35, DE:260,1026-39"
+            "description": "Removed as common tagging mistake for signage DE:260,1026-39, DE:250,1020-30,1026-35"
         },
         {
             "key": "vehicle",
@@ -1698,6 +1690,14 @@
                 "way"
             ],
             "description": "Removed as common tagging mistake for signage DE:260,1026-39"
+        },
+        {
+            "key": "access",
+            "value": "destination;delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Removed as common tagging mistake for signage DE:250,1020-30,1026-35, DE:260,1020-30,1026-35"
         },
         {
             "key": "access",
