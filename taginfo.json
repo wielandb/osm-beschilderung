@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20240401T070542Z",
+    "data_updated": "20240408T070822Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -309,30 +309,6 @@
         },
         {
             "key": "maxspeed",
-            "value": "70",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:274[70]"
-        },
-        {
-            "key": "maxspeed:type",
-            "value": "sign",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:274[70], DE:274[30], DE:274[50], DE:274[80], DE:274[60], and 9 others"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:274[70]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "maxspeed",
             "value": "30",
             "object_types": [
                 "way"
@@ -340,8 +316,32 @@
             "description": "Added/updated if implied by signage DE:274[30]"
         },
         {
+            "key": "maxspeed:type",
+            "value": "sign",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:274[30], DE:274[70], DE:274[50], DE:274[80], DE:274[60], and 9 others"
+        },
+        {
             "key": "traffic_sign",
             "value": "DE:274[30]",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "maxspeed",
+            "value": "70",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:274[70]"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:274[70]",
             "object_types": [
                 "way"
             ],
@@ -621,7 +621,7 @@
         },
         {
             "key": "traffic_sign",
-            "value": "DE:257-51",
+            "value": "DE:242",
             "object_types": [
                 "way"
             ],
@@ -629,7 +629,7 @@
         },
         {
             "key": "traffic_sign",
-            "value": "DE:242",
+            "value": "DE:257-51",
             "object_types": [
                 "way"
             ],
