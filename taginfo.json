@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20240415T070341Z",
+    "data_updated": "20240422T070738Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -500,22 +500,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "mofa",
-            "value": "yes",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:240,1022-11"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:240,1022-11",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "hazard",
             "value": "children",
             "object_types": [
@@ -526,6 +510,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:136-10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "mofa",
+            "value": "yes",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:240,1022-11"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:240,1022-11",
             "object_types": [
                 "way"
             ],
@@ -1020,22 +1020,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "emergency",
-            "value": "yes",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:260,1026-33"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:260,1026-33",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "motor_vehicle",
             "value": "private;delivery",
             "object_types": [
@@ -1046,6 +1030,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:260,1026-39",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "emergency",
+            "value": "yes",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:260,1026-33"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:260,1026-33",
             "object_types": [
                 "way"
             ],
@@ -1660,14 +1660,6 @@
             "description": "Removed as common tagging mistake for signage DE:250,1026-39, DE:260,1020-30,1026-35"
         },
         {
-            "key": "vehicle",
-            "value": "emergency",
-            "object_types": [
-                "way"
-            ],
-            "description": "Removed as common tagging mistake for signage DE:260,1026-33"
-        },
-        {
             "key": "access",
             "value": "private",
             "object_types": [
@@ -1690,6 +1682,14 @@
                 "way"
             ],
             "description": "Removed as common tagging mistake for signage DE:260,1026-39"
+        },
+        {
+            "key": "vehicle",
+            "value": "emergency",
+            "object_types": [
+                "way"
+            ],
+            "description": "Removed as common tagging mistake for signage DE:260,1026-33"
         },
         {
             "key": "access",
