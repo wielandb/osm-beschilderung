@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20240708T070846Z",
+    "data_updated": "20240715T070742Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -769,7 +769,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:240,1020-30, DE:239,1020-30, DE:237,1020-30, DE:239,1020-12"
+            "description": "Added/updated if implied by signage DE:240,1020-30, DE:239,1020-30, DE:239,1020-12, DE:237,1020-30"
         },
         {
             "key": "traffic_sign",
@@ -1149,7 +1149,7 @@
         },
         {
             "key": "traffic_sign",
-            "value": "DE:237,1020-30",
+            "value": "DE:239,1020-12",
             "object_types": [
                 "way"
             ],
@@ -1157,7 +1157,7 @@
         },
         {
             "key": "traffic_sign",
-            "value": "DE:239,1020-12",
+            "value": "DE:237,1020-30",
             "object_types": [
                 "way"
             ],
