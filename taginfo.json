@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20240826T070806Z",
+    "data_updated": "20240902T070822Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -292,16 +292,16 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "hazmat:water",
-            "value": "no",
+            "key": "vehicle",
+            "value": "destination",
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:269"
+            "description": "Added/updated if implied by signage DE:250,1020-30, DE:250,1020-12"
         },
         {
             "key": "traffic_sign",
-            "value": "DE:269",
+            "value": "DE:250,1020-30",
             "object_types": [
                 "way"
             ],
@@ -332,16 +332,16 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "vehicle",
-            "value": "destination",
+            "key": "hazmat:water",
+            "value": "no",
             "object_types": [
                 "way"
             ],
-            "description": "Added/updated if implied by signage DE:250,1020-30, DE:250,1020-12"
+            "description": "Added/updated if implied by signage DE:269"
         },
         {
             "key": "traffic_sign",
-            "value": "DE:250,1020-30",
+            "value": "DE:269",
             "object_types": [
                 "way"
             ],
