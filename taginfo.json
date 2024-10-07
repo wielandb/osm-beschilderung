@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20240930T070926Z",
+    "data_updated": "20241007T070858Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -292,22 +292,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "hazmat:water",
-            "value": "no",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:269"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:269",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "vehicle",
             "value": "destination",
             "object_types": [
@@ -318,6 +302,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:250,1020-30",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "hazmat:water",
+            "value": "no",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:269"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:269",
             "object_types": [
                 "way"
             ],
@@ -1020,22 +1020,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "inline_skates",
-            "value": "yes",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:237,1020-13"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:237,1020-13",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "motor_vehicle",
             "value": "private;delivery",
             "object_types": [
@@ -1046,6 +1030,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:260,1026-39",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "inline_skates",
+            "value": "yes",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:237,1020-13"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:237,1020-13",
             "object_types": [
                 "way"
             ],
