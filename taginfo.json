@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20250210T070852Z",
+    "data_updated": "20250217T070936Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -644,22 +644,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "hazard",
-            "value": "animal_crossing",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:142-10"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:142-10",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "oneway:bicycle",
             "value": "no",
             "object_types": [
@@ -670,6 +654,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:239,1022-10,1000-31",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "hazard",
+            "value": "animal_crossing",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:142-10"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:142-10",
             "object_types": [
                 "way"
             ],
@@ -812,22 +812,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "hazard",
-            "value": "pedestrians",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:133-10"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:133-10",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "highway",
             "value": "bridleway",
             "object_types": [
@@ -838,6 +822,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:238",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "hazard",
+            "value": "pedestrians",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:133-10"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:133-10",
             "object_types": [
                 "way"
             ],
@@ -988,6 +988,14 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "traffic_sign",
+            "value": "DE:260,1026-32",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "maxspeed",
             "value": "5",
             "object_types": [
@@ -998,14 +1006,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[5]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:260,1026-32",
             "object_types": [
                 "way"
             ],
