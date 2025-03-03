@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20250224T070918Z",
+    "data_updated": "20250303T071149Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -604,22 +604,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "highway",
-            "value": "pedestrian",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:242,1022-10, DE:242, DE:242,1022-10,1026-35,1026-30"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:242,1022-10",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "hgv",
             "value": "delivery",
             "object_types": [
@@ -636,24 +620,24 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "highway",
+            "value": "pedestrian",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:242,1022-10, DE:242, DE:242,1022-10,1026-35,1026-30"
+        },
+        {
             "key": "traffic_sign",
-            "value": "DE:257-51",
+            "value": "DE:242,1022-10",
             "object_types": [
                 "way"
             ],
             "description": "Added to represent signage"
         },
         {
-            "key": "oneway:bicycle",
-            "value": "no",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:239,1022-10,1000-31"
-        },
-        {
             "key": "traffic_sign",
-            "value": "DE:239,1022-10,1000-31",
+            "value": "DE:257-51",
             "object_types": [
                 "way"
             ],
@@ -670,6 +654,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:142-10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "oneway:bicycle",
+            "value": "no",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:239,1022-10,1000-31"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:239,1022-10,1000-31",
             "object_types": [
                 "way"
             ],
