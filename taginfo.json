@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20250310T070811Z",
+    "data_updated": "20250317T070944Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -1261,22 +1261,6 @@
         },
         {
             "key": "maxspeed",
-            "value": "90",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:274[90]"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:274[90]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "maxspeed",
             "value": "110",
             "object_types": [
                 "way"
@@ -1286,6 +1270,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[110]",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "maxspeed",
+            "value": "90",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:274[90]"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:274[90]",
             "object_types": [
                 "way"
             ],
