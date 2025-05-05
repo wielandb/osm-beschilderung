@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20250428T073537Z",
+    "data_updated": "20250505T071041Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -636,22 +636,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "hazard",
-            "value": "animal_crossing",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:142-10"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:142-10",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "traffic_sign",
             "value": "DE:257-51",
             "object_types": [
@@ -670,6 +654,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:239,1022-10,1000-31",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "hazard",
+            "value": "animal_crossing",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:142-10"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:142-10",
             "object_types": [
                 "way"
             ],
@@ -1117,7 +1117,7 @@
         },
         {
             "key": "traffic_sign",
-            "value": "DE:250,1026-32,1026-30,1012-32",
+            "value": "DE:239,1020-12",
             "object_types": [
                 "way"
             ],
@@ -1125,7 +1125,7 @@
         },
         {
             "key": "traffic_sign",
-            "value": "DE:239,1020-12",
+            "value": "DE:250,1026-32,1026-30,1012-32",
             "object_types": [
                 "way"
             ],
