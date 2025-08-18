@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20250811T071640Z",
+    "data_updated": "20250818T071438Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -444,22 +444,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "hazmat",
-            "value": "no",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:261"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:261",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "hazard",
             "value": "children",
             "object_types": [
@@ -470,6 +454,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:136-10",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "hazmat",
+            "value": "no",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:261"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:261",
             "object_types": [
                 "way"
             ],
@@ -940,22 +940,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "traffic_sign",
-            "value": "DE:239,1020-30",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:1012-32",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "access",
             "value": "delivery",
             "object_types": [
@@ -966,6 +950,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:240,1026-35",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:239,1020-30",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:1012-32",
             "object_types": [
                 "way"
             ],
