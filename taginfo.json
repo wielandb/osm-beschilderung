@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20260601T122657Z",
+    "data_updated": "20260608T114705Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -588,22 +588,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "highway",
-            "value": "pedestrian",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:242,1022-10, DE:242, DE:242,1022-10,1026-35,1026-30"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:242,1022-10",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "horse",
             "value": "no",
             "object_types": [
@@ -614,6 +598,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:257-51",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "highway",
+            "value": "pedestrian",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:242,1022-10, DE:242, DE:242,1022-10,1026-35,1026-30"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:242,1022-10",
             "object_types": [
                 "way"
             ],
@@ -644,22 +644,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "bus",
-            "value": "yes",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:250,1026-32, DE:250,1024-14, DE:260,1026-32, DE:253,1024-14"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:250,1026-32",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "maxspeed",
             "value": "10",
             "object_types": [
@@ -670,6 +654,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[10]",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "bus",
+            "value": "yes",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:250,1026-32, DE:250,1024-14, DE:260,1026-32, DE:253,1024-14"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:250,1026-32",
             "object_types": [
                 "way"
             ],
@@ -804,22 +804,6 @@
             "description": "Added to represent signage"
         },
         {
-            "key": "oneway",
-            "value": "no",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:241,1000-31, DE:240,1026-39"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:241,1000-31",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
             "key": "vehicle",
             "value": "private;delivery",
             "object_types": [
@@ -830,6 +814,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:250,1026-39",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "oneway",
+            "value": "no",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:241,1000-31, DE:240,1026-39"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:241,1000-31",
             "object_types": [
                 "way"
             ],
