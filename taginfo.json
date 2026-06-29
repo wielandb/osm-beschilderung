@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/wielandb/osm-beschilderung/main/taginfo.json",
-    "data_updated": "20260622T123946Z",
+    "data_updated": "20260629T115112Z",
     "project": {
         "name": "osm-beschilderung",
         "description": "An app to quickly add german traffic signs to OSM",
@@ -325,22 +325,6 @@
         },
         {
             "key": "vehicle",
-            "value": "agricultural",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:250,1026-36"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:250,1026-36",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "vehicle",
             "value": "agricultural;forestry",
             "object_types": [
                 "way"
@@ -350,6 +334,22 @@
         {
             "key": "traffic_sign",
             "value": "DE:250,1026-38",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
+            "key": "vehicle",
+            "value": "agricultural",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:250,1026-36"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:250,1026-36",
             "object_types": [
                 "way"
             ],
@@ -956,6 +956,22 @@
             "description": "Added to represent signage"
         },
         {
+            "key": "motor_vehicle",
+            "value": "private;delivery",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added/updated if implied by signage DE:260,1026-39"
+        },
+        {
+            "key": "traffic_sign",
+            "value": "DE:260,1026-39",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added to represent signage"
+        },
+        {
             "key": "inline_skates",
             "value": "yes",
             "object_types": [
@@ -982,22 +998,6 @@
         {
             "key": "traffic_sign",
             "value": "DE:274[5]",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added to represent signage"
-        },
-        {
-            "key": "motor_vehicle",
-            "value": "private;delivery",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added/updated if implied by signage DE:260,1026-39"
-        },
-        {
-            "key": "traffic_sign",
-            "value": "DE:260,1026-39",
             "object_types": [
                 "way"
             ],
@@ -1433,7 +1433,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Removed as common tagging mistake for signage DE:250, DE:260,1020-30, DE:250,1020-30, DE:250,1026-36, DE:250,1026-38, and 15 others"
+            "description": "Removed as common tagging mistake for signage DE:250, DE:260,1020-30, DE:250,1020-30, DE:250,1026-38, DE:250,1026-36, and 15 others"
         },
         {
             "key": "foot",
@@ -1525,19 +1525,19 @@
         },
         {
             "key": "access",
-            "value": "agricultural",
-            "object_types": [
-                "way"
-            ],
-            "description": "Removed as common tagging mistake for signage DE:250,1026-36"
-        },
-        {
-            "key": "access",
             "value": "agricultural;forestry",
             "object_types": [
                 "way"
             ],
             "description": "Removed as common tagging mistake for signage DE:250,1026-38"
+        },
+        {
+            "key": "access",
+            "value": "agricultural",
+            "object_types": [
+                "way"
+            ],
+            "description": "Removed as common tagging mistake for signage DE:250,1026-36"
         },
         {
             "key": "vehicle",
