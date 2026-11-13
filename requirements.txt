@@ -1,1 +1,1 @@
-requests
+osmium>=4.0,<5

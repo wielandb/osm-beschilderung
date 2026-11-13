@@ -6,7 +6,7 @@ with open("definitions/signs.json", "r") as f:
 with open("README.md", "r") as f:
     readme = f.read()
 
-MD = "| Bild | Hinzugefügte Tags | Entfernte Tags | Kategorie | Häufigkeit in der OSM-Datenbank | " + "\n" + "|:----:|:-----------------:|:--------------:|:---------:|:-------------------------------:| " + "\n"
+MD = "| Bild | Hinzugefügte Tags | Entfernte Tags | Kategorie | Häufigkeit im Deutschland-Extrakt | " + "\n" + "|:----:|:-----------------:|:--------------:|:---------:|:-------------------------------:| " + "\n"
 
 for item in liste:
     itval = item[list(item.keys())[0]]
