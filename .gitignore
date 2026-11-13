@@ -1,0 +1,3 @@
+*.osm.pbf
+*.osm.pbf.part
+__pycache__/

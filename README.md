@@ -40,7 +40,7 @@ Die JSON-Datei ist eine Liste von Dictionarys. Hier ein Beispiel für ein solche
 - `ipfs` (optional): Gibt den einen IPFS-Hash zu einer .png-Datei an, die dieses Zeichen/diese Zeichenkombination zeigt, damit sie in der App angezeigt werden kann.
 - `wrong` (optional): Gibt an, ob eine Verkehrszeichenkombination "falsch"/"sinnlos" ist. Sollte weggelassen werden, wenn `false`
 - `cat` (notwendig): Gibt die Kategorie des Zeichens an
-- `frequency` (automatisch): Gibt die Häufigkeit dieses Verkehrszeichens/dieser Kombination in der OSM-Datenbank an
+- `frequency` (automatisch): Gibt die Häufigkeit dieses Verkehrszeichens/dieser Kombination im Deutschland-Extrakt der Geofabrik an
 
 ### Genauere Erklärung und Verwendung der Tags innerhalb der App:
 
@@ -73,7 +73,48 @@ Damit die Verkehrszeichen in der App geordnet werden können, haben sie alle ein
 
 #### `frequency`
 
-Im Ordner scripts gibt es ein Python-Skript, mit dem die Elemente der signs.json nach ihrer Häufigkeit in der OSM-Datenbank sortiert werden. Diese Häufigkeit steht anschließend in diesem Schlüssel zur Verfügung.
+`scripts/sort-values.py` zählt die Häufigkeiten in einer lokalen Kopie des
+[Deutschland-Extrakts der Geofabrik](https://download.geofabrik.de/europe/germany.html)
+und sortiert `definitions/signs.json` absteigend danach. Gezählt werden Nodes, Ways
+und Relations mit exakt dem angegebenen `traffic_sign`-Wert. Kombinationen mit
+Komma oder Semikolon werden als vollständiger Wert verglichen, nicht aufgeteilt.
+`traffic_sign:forward` und andere abweichende Schlüssel werden nicht mitgezählt.
+Die Zahlen gelten für den Umfang und Datenstand des Extrakts, nicht weltweit.
+
+Die PBF-Datei wird einmal durchlaufen, ohne sie komplett in den Arbeitsspeicher zu
+laden oder einen Koordinatenindex aufzubauen. Die Definitionen werden erst nach
+erfolgreichem Einlesen vollständig ersetzt. Overpass- und Taginfo-Abfragen sind
+für die Häufigkeiten nicht mehr nötig.
+
+Der GitHub-Workflow lädt bei jedem Lauf einen aktuellen Extrakt herunter, führt
+die Tests und alle drei Skripte aus und veröffentlicht die generierten Dateien
+nur bei Läufen auf `main`. Der Download benötigt mehrere GB freien Speicherplatz
+und kann einige Minuten dauern. Die PBF-Datei wird nicht ins Repository eingecheckt.
+
+Lokaler Aufruf aus dem Repository-Verzeichnis (Python 3.9 oder neuer):
+
+```sh
+python -m pip install -r requirements.txt
+mkdir -p data
+curl --fail --location --retry 5 --output data/germany-latest.osm.pbf.part \
+  https://download.geofabrik.de/europe/germany-latest.osm.pbf
+mv data/germany-latest.osm.pbf.part data/germany-latest.osm.pbf
+python scripts/sort-values.py
+python scripts/generate-readme.py
+python scripts/generate-taginfo.py
+```
+
+Eine bereits vorhandene Kopie lässt sich mit
+`python scripts/sort-values.py /pfad/zu/germany.osm.pbf` verwenden. Ohne Argument
+wird `data/germany-latest.osm.pbf` relativ zum Repository verwendet. Unter Windows
+kann nach dem Download `scripts\pipeline.bat "C:\Daten\germany.osm.pbf"` alle drei
+Skripte ausführen; bei einem Fehler bricht die Pipeline ab.
+
+Die Tests verwenden selbst erzeugte kleine PBF-Dateien und benötigen keinen Download:
+
+```sh
+python -m unittest discover -s tests -v
+```
 
 ## Namenskonventionen der png-Dateien und Schlüsselwerte
 

@@ -1,62 +1,76 @@
+import argparse
 import json
-import urllib.parse
-from time import sleep
-import requests
-import os
+from pathlib import Path
+import tempfile
 
-## Dieses Skript sortiert die Einträge in signs.json nach der Häufigkeit ihrer `traffic_sign`-Werte in der OSM-Datenbank
-
-opq_1 = "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3B%0A%28%0A%20%20nwr%5B%22traffic_sign%22%3D%22"
-opq_2 = "%22%5D%3B%0A%29%3B%0Aout%20count%3B"
-
-def getFreq(ix):
-    if isinstance(ix, dict):
-        return int(ix[list(ix.keys())[0]]["frequency"])
-    for vzix in range(len(alt_liste)):
-        if vzix == ix:
-            traffic_sign_key = list(alt_liste[vzix].keys())[0]
-            return int(alt_liste[vzix][traffic_sign_key]["frequency"])
-    return 99999999
+import osmium
 
 
-def getFreqOnline(ts):
-    ans = requests.get("https://taginfo.openstreetmap.org/api/4/tag/stats?key=traffic_sign&value=" + str(ts))
-    if ans.status_code == 200:
-        J = ans.json()
-        return J["data"][0]["count"]
-    else:
-        return 0
+ROOT = Path(__file__).resolve().parent.parent
 
 
-# A function that checks if the current working directory is the root of the project or the scripts folder
-def check_cwd():
-    if os.getcwd().split("/")[-1] == "scripts":
-        os.chdir("..")        
+def traffic_sign_value(sign):
+    values = [tag["traffic_sign"] for tag in sign["tags"] if "traffic_sign" in tag]
+    if len(values) != 1:
+        raise ValueError("Each sign definition must contain exactly one traffic_sign tag")
+    return values[0]
 
 
-### Schritt 0: Die Liste aus der Datei laden
+def count_frequencies(pbf_path, values):
+    """Count exact traffic_sign values on nodes, ways and relations in one pass."""
+    counts = dict.fromkeys(values, 0)
+    # Filter in libosmium before entering Python. No geometry/location cache is needed.
+    objects = osmium.FileProcessor(pbf_path).with_filter(
+        osmium.filter.KeyFilter("traffic_sign")
+    )
+    for obj in objects:
+        value = obj.tags["traffic_sign"]
+        if value in counts:
+            counts[value] += 1
+    return counts
 
-check_cwd()
 
-with open("definitions/signs.json", "r") as f:
-    alt_liste = json.loads(f.read())
+def update_frequencies(pbf_path, definitions_path):
+    with definitions_path.open(encoding="utf-8") as f:
+        signs = json.load(f)
+    values = [traffic_sign_value(next(iter(item.values()))) for item in signs]
 
-### Schritt 1: Für jede Verkehrszeichenkombination die Häufigkeit ermitteln
+    # Finish reading the entire extract before changing any definitions.
+    counts = count_frequencies(pbf_path, values)
+    for item, value in zip(signs, values):
+        key, sign = next(iter(item.items()))
+        sign["frequency"] = counts[value]
+        print(f"{key} - {counts[value]}")
+    signs.sort(key=lambda item: next(iter(item.values()))["frequency"], reverse=True)
 
-for vzix in range(len(alt_liste)):
-    traffic_sign_dict = alt_liste[vzix]
-    traffic_sign_key = list(alt_liste[vzix].keys())[0]
-    traffic_sign_tags = traffic_sign_dict[list(alt_liste[vzix].keys())[0]]["tags"]
-    for t in traffic_sign_tags:
-        if "traffic_sign" in t.keys():
-            traffic_sign = t["traffic_sign"]
-    freq = getFreqOnline(traffic_sign)
-    print(traffic_sign_key + " - " + str(freq))
-    alt_liste[vzix][traffic_sign_key]["frequency"] = int(freq)
+    # Replace atomically so a failed run leaves the previous definitions intact.
+    temporary_path = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=definitions_path.parent, delete=False
+        ) as f:
+            temporary_path = Path(f.name)
+            json.dump(signs, f, indent=4)
+        temporary_path.replace(definitions_path)
+    finally:
+        if temporary_path is not None:
+            temporary_path.unlink(missing_ok=True)
 
-### Schritt 2: Die Liste sortieren und abspeichern
 
-neu_liste = sorted(alt_liste, reverse=True, key=lambda x: getFreq(x))
+def main():
+    parser = argparse.ArgumentParser(
+        description="Sort sign definitions by frequency in a local Geofabrik Germany extract."
+    )
+    parser.add_argument(
+        "pbf", nargs="?", type=Path, default=ROOT / "data/germany-latest.osm.pbf",
+        help="Local OSM PBF file (default: data/germany-latest.osm.pbf in the repository)",
+    )
+    args = parser.parse_args()
+    if not args.pbf.is_file():
+        parser.error(f"PBF file not found: {args.pbf}. Download the Geofabrik extract first (see README).")
+    print(f"Counting traffic_sign values in {args.pbf}", flush=True)
+    update_frequencies(args.pbf, ROOT / "definitions/signs.json")
 
-with open("definitions/signs.json", "w") as f:
-    f.write(json.dumps(neu_liste, indent=4))
+
+if __name__ == "__main__":
+    main()
